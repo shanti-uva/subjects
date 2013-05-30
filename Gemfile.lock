@@ -132,10 +132,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/topical_map_integration.git
-  revision: fcd1929091ebe94c8210c23f82f590a9b545bbfe
-  tag: v3.0.1
+  revision: 9dfc53014f1375db46fe2cf1fbef60f291947e44
+  tag: v3.0.2
   specs:
-    topical_map_integration (3.0.1)
+    topical_map_integration (3.0.2)
       rails (~> 3.2.9)
 
 GIT
@@ -333,7 +333,7 @@ DEPENDENCIES
   system_timer
   therubyracer (= 0.10.2)
   tinymce-rails (= 3.5.6)
-  topical_map_integration (= 3.0.1)!
+  topical_map_integration (= 3.0.2)!
   topical_map_to_kmaps (= 0.0.1)!
   uglifier (>= 1.0.3)
   universal_navigation (= 2.0.6)!
