@@ -108,10 +108,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/interface_utils.git
-  revision: 88bc6087bbb2b49603909134ad7d4cc4914010b0
-  tag: v2.0.3
+  revision: 3822a6412f519ef0d4e853db87d0f43bf7d8152d
+  tag: v2.0.4
   specs:
-    interface_utils (2.0.3)
+    interface_utils (2.0.4)
       rails (~> 3.2.11)
 
 GIT
@@ -306,7 +306,7 @@ DEPENDENCIES
   exception_notification
   georuby
   hpricot (>= 0.8.6)
-  interface_utils (= 2.0.3)!
+  interface_utils (= 2.0.4)!
   jquery-rails
   json
   kmaps_engine (= 1.0.2)!

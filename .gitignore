@@ -17,3 +17,4 @@ config/environments/quandu_*.rb
 doc/plugins/*
 vendor/bundle/
 www
+public/assets/
