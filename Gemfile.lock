@@ -35,18 +35,18 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/shanti_integration.git
-  revision: c81cfe5b130ec228dbb8801a46340de59e1041a9
-  tag: v2.0.9
+  revision: 0a3db4e70a99365441f482fd58eb68ecd12ed795
+  tag: v2.1.0
   specs:
-    shanti_integration (2.0.9)
+    shanti_integration (2.1.0)
       rails (~> 3.2.8)
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 52267ef7992539741987172dfbb05487c8b885de
-  tag: v0.0.3
+  revision: e76a0e37364378f6413660e47f9d97289e27b5c9
+  tag: v0.0.4
   specs:
-    subjects_engine (0.0.3)
+    subjects_engine (0.0.4)
       rails (~> 3.2.13)
 
 GIT
@@ -326,10 +326,10 @@ DEPENDENCIES
   restful-authentication (= 2.0.0.beta1)!
   ruby-debug
   sass-rails (~> 3.2.3)
-  shanti_integration (= 2.0.9)!
+  shanti_integration (= 2.1.0)!
   spatial_adapter (= 1.3.1)!
   spawn (= 1.0.1)!
-  subjects_engine (= 0.0.3)!
+  subjects_engine (= 0.0.4)!
   system_timer
   therubyracer (= 0.10.2)
   tinymce-rails (= 3.5.6)
