@@ -43,10 +43,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 4a75775920ea7b3c70c41b1ba2e17ed9b607020e
-  tag: v0.0.5
+  revision: c8ca6deece0f5559c810189b3e39a898fb41bf0b
+  tag: v0.0.6
   specs:
-    subjects_engine (0.0.5)
+    subjects_engine (0.0.6)
       rails (~> 3.2.13)
 
 GIT
@@ -346,7 +346,7 @@ DEPENDENCIES
   shanti_integration (= 2.1.2)!
   spatial_adapter (= 1.3.1)!
   spawn (= 1.0.1)!
-  subjects_engine (= 0.0.5)!
+  subjects_engine (= 0.0.6)!
   subjects_integration (= 0.0.2)!
   system_timer
   therubyracer (= 0.10.2)
