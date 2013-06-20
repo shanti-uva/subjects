@@ -27,10 +27,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: f6414546408aece7ec93dd014c898359802ca359
-  tag: v1.1.4
+  revision: f2497513fda64736d9a1bb78819a3441fe4db055
+  tag: v1.1.5
   specs:
-    kmaps_engine (1.1.4)
+    kmaps_engine (1.1.5)
       rails (~> 3.2.13)
 
 GIT
@@ -43,10 +43,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 77ed403e883b99fbb95241336299f94ca9c5b3cd
-  tag: v0.0.7
+  revision: 768d13d33ec5efad3df04e99d44bd127d414e727
+  tag: v0.0.8
   specs:
-    subjects_engine (0.0.7)
+    subjects_engine (0.0.8)
       rails (~> 3.2.13)
 
 GIT
@@ -325,7 +325,7 @@ DEPENDENCIES
   interface_utils (= 2.0.5)!
   jquery-rails
   json
-  kmaps_engine (= 1.1.4)!
+  kmaps_engine (= 1.1.5)!
   libv8 (= 3.3.10.2)
   makandra_resource_controller
   memcache-client
@@ -346,7 +346,7 @@ DEPENDENCIES
   shanti_integration (= 2.1.2)!
   spatial_adapter (= 1.3.1)!
   spawn (= 1.0.1)!
-  subjects_engine (= 0.0.7)!
+  subjects_engine (= 0.0.8)!
   subjects_integration (= 0.0.2)!
   system_timer
   therubyracer (= 0.10.2)
