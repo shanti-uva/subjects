@@ -324,7 +324,7 @@ DEPENDENCIES
   spawn (= 1.0.1)!
   subjects_engine (= 0.1.0)!
   system_timer
-  therubyracer (= 0.10.2)
+  therubyracer
   tinymce-rails (= 3.5.6)
   uglifier (>= 1.0.3)
   universal_navigation (= 2.0.9)!
