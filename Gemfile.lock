@@ -27,10 +27,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 75d5fa8f82a03eb6e38121c9f87f9a09ba089a4d
-  tag: v1.2.0
+  revision: 2505a465e34082f84ef2f037e6adda13c086a836
+  tag: v1.2.3
   specs:
-    kmaps_engine (1.2.0)
+    kmaps_engine (1.2.3)
       rails (~> 3.2.13)
 
 GIT
@@ -67,18 +67,18 @@ GIT
 
 GIT
   remote: git://github.com/thl/authenticated_system.git
-  revision: 79554750f8069f1642cea5d2ac1ec402a0bdac0f
-  tag: v2.1.1
+  revision: 84807aae0e32975490c165748f5e9f1c415e572c
+  tag: v2.1.2
   specs:
-    authenticated_system (2.1.1)
+    authenticated_system (2.1.2)
       rails (~> 3.2.8)
 
 GIT
   remote: git://github.com/thl/complex_dates.git
-  revision: e28b271280edb340809e62fc82bacf9400e8b2c2
-  tag: v2.0.3
+  revision: 8aba88807c6b6984d8da6fe176780c7027275994
+  tag: v2.0.5
   specs:
-    complex_dates (2.0.3)
+    complex_dates (2.0.5)
       rails (~> 3.2.11)
 
 GIT
@@ -108,10 +108,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/mms_integration.git
-  revision: 556f4318617b2bd52080a56872ee6f23185e92df
-  tag: v2.0.5
+  revision: d4961455c500fa9e832f983d1ed40e165d28d64c
+  tag: v2.0.6
   specs:
-    mms_integration (2.0.5)
+    mms_integration (2.0.6)
       rails (~> 3.2.8)
 
 GIT
@@ -124,10 +124,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/proxy_engine.git
-  revision: 0ce77bc3b327701a140a738431bd2cc1f40cf6d2
-  tag: v2.0.1
+  revision: 33a81f65f9b66ffc9f2e62ce77fa9db922c7cc85
+  tag: v2.0.2
   specs:
-    proxy_engine (2.0.1)
+    proxy_engine (2.0.2)
       rails (~> 3.2.9)
 
 GIT
@@ -289,9 +289,9 @@ DEPENDENCIES
   active_resource_extensions (= 2.0.7)!
   acts_as_family_tree (= 1.0.3)!
   annotate
-  authenticated_system (= 2.1.1)!
+  authenticated_system (= 2.1.2)!
   coffee-rails (~> 3.2.1)
-  complex_dates (= 2.0.3)!
+  complex_dates (= 2.0.5)!
   complex_scripts (= 2.0.7)!
   dictionary_integration (= 2.0.2)!
   dynamic_form
@@ -301,11 +301,11 @@ DEPENDENCIES
   interface_utils (= 2.0.5)!
   jquery-rails
   json
-  kmaps_engine (= 1.2.0)!
+  kmaps_engine (= 1.2.3)!
   libv8 (= 3.3.10.2)
   makandra_resource_controller
   memcache-client
-  mms_integration (= 2.0.5)!
+  mms_integration (= 2.0.6)!
   mongrel
   mysql2
   newrelic_rpm
@@ -313,7 +313,7 @@ DEPENDENCIES
   passiverecord (= 0.2)!
   pg
   places_integration (= 2.0.5)!
-  proxy_engine (= 2.0.1)!
+  proxy_engine (= 2.0.2)!
   rack-openid
   rails (= 3.2.13)
   restful-authentication (= 2.0.0.beta1)!
