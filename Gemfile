@@ -58,7 +58,7 @@ gem 'shanti_integration',         '2.1.4',        :git => 'git://github.com/shan
 # gem 'subjects_integration',       '0.0.3',      :git => 'git://github.com/shanti-uva/subjects_integration.git', :tag => 'v0.0.3' #:path => '../engines/subjects_integration'
 # gem 'topical_map_integration',    '3.0.2',      :git => 'git://github.com/thl/topical_map_integration.git',     :tag => 'v3.0.2' #:path => '../../thl/engines/topical_map_integration'
 # gem 'topical_map_to_kmaps',       '0.0.1',      :git => 'git://github.com/shanti-uva/topical_map_to_kmaps.git', :tag => 'v0.0.1' #:path => '../engines/topical_map_to_kmaps'
-gem 'subjects_engine',            '0.1.2',        :git => 'git://github.com/shanti-uva/subjects_engine.git',      :tag => 'v0.1.2' #:path => '../engines/subjects_engine'
+gem 'subjects_engine',            '0.1.3',        :git => 'git://github.com/shanti-uva/subjects_engine.git',      :tag => 'v0.1.3' #:path => '../engines/subjects_engine'
 gem 'universal_navigation',       '2.0.9',        :git => 'git://github.com/thl/universal_navigation.git',        :tag => 'v2.0.9' #:path => '../../thl/engines/universal_navigation'
 
 # To use ActiveModel has_secure_password
