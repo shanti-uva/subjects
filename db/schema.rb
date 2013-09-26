@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130816195043) do
+ActiveRecord::Schema.define(:version => 20130926025922) do
 
   create_table "authors_descriptions", :id => false, :force => true do |t|
     t.integer "description_id", :null => false
@@ -30,16 +30,6 @@ ActiveRecord::Schema.define(:version => 20130816195043) do
     t.datetime "updated_at"
   end
 
-  create_table "cached_category_counts", :force => true do |t|
-    t.integer  "category_id",      :null => false
-    t.integer  "count",            :null => false
-    t.datetime "cache_updated_at", :null => false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "cached_category_counts", ["category_id"], :name => "index_cached_category_counts_on_category_id", :unique => true
-
   create_table "cached_feature_names", :force => true do |t|
     t.integer  "feature_id",      :null => false
     t.integer  "view_id",         :null => false
@@ -50,36 +40,14 @@ ActiveRecord::Schema.define(:version => 20130816195043) do
 
   add_index "cached_feature_names", ["feature_id", "view_id"], :name => "index_cached_feature_names_on_feature_id_and_view_id", :unique => true
 
-  create_table "cached_feature_relation_categories", :force => true do |t|
-    t.integer  "feature_id"
-    t.integer  "related_feature_id"
-    t.integer  "category_id"
-    t.integer  "perspective_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "feature_relation_type_id"
-    t.boolean  "feature_is_parent"
+  create_table "captions", :force => true do |t|
+    t.integer  "language_id",                :null => false
+    t.string   "content",     :limit => 150, :null => false
+    t.integer  "author_id",                  :null => false
+    t.integer  "feature_id",                 :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
   end
-
-  create_table "category_features", :force => true do |t|
-    t.integer  "feature_id",                        :null => false
-    t.integer  "category_id",                       :null => false
-    t.integer  "perspective_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "position",       :default => 0,     :null => false
-    t.string   "type"
-    t.string   "string_value"
-    t.integer  "numeric_value"
-    t.boolean  "show_parent",    :default => false, :null => false
-    t.boolean  "show_root",      :default => true,  :null => false
-    t.string   "label"
-    t.boolean  "prefix_label",   :default => true,  :null => false
-  end
-
-  add_index "category_features", ["category_id"], :name => "feature_object_types_object_type_id_idx"
-  add_index "category_features", ["feature_id"], :name => "feature_object_types_feature_id_idx"
-  add_index "category_features", ["perspective_id"], :name => "feature_object_types_perspective_id_idx"
 
   create_table "citations", :force => true do |t|
     t.integer  "info_source_id"
@@ -136,15 +104,6 @@ ActiveRecord::Schema.define(:version => 20130816195043) do
     t.integer  "intercalary_month_end_id"
     t.integer  "intercalary_day_end_id"
   end
-
-  create_table "cumulative_category_feature_associations", :force => true do |t|
-    t.integer  "feature_id",  :null => false
-    t.integer  "category_id", :null => false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "cumulative_category_feature_associations", ["category_id", "feature_id"], :name => "by_category_feature", :unique => true
 
   create_table "descriptions", :force => true do |t|
     t.integer  "feature_id",                    :null => false
@@ -329,8 +288,6 @@ ActiveRecord::Schema.define(:version => 20130816195043) do
     t.string "fullname", :null => false
   end
 
-  add_index "people", ["fullname"], :name => "index_people_on_fullname", :unique => true
-
   create_table "permissions", :force => true do |t|
     t.string "title",       :limit => 60, :null => false
     t.text   "description"
@@ -383,6 +340,15 @@ ActiveRecord::Schema.define(:version => 20130816195043) do
 
   add_index "simple_props", ["code"], :name => "simple_props_code_idx"
   add_index "simple_props", ["type"], :name => "simple_props_type_idx"
+
+  create_table "summaries", :force => true do |t|
+    t.integer  "language_id", :null => false
+    t.text     "content",     :null => false
+    t.integer  "author_id",   :null => false
+    t.integer  "feature_id",  :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "time_units", :force => true do |t|
     t.integer  "date_id"
