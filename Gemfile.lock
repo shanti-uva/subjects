@@ -27,10 +27,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: cba138236c06dd2761a908e195788a0b77ff4c4b
-  tag: v1.5.0
+  revision: 5b3660ec259e9de632663836ff5fb43e42fd621e
+  tag: v1.5.1
   specs:
-    kmaps_engine (1.5.0)
+    kmaps_engine (1.5.1)
       rails (~> 3.2.13)
 
 GIT
@@ -43,10 +43,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: c1d6d19d9d9ad506e288daac36ce60e11c202ae7
-  tag: v0.1.9
+  revision: 98dd94e35292e335e1e2f06b50783dd6b8c3a2ae
+  tag: v0.2.0
   specs:
-    subjects_engine (0.1.9)
+    subjects_engine (0.2.0)
       rails (~> 3.2.13)
 
 GIT
@@ -108,10 +108,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/mms_integration.git
-  revision: 4d6eab4e381e07556bbf87ac4be6534a463991ea
-  tag: v2.1.3
+  revision: 9f37dbf0d3a56928a1d584844af3aa5eaabf5b7a
+  tag: v2.1.4
   specs:
-    mms_integration (2.1.3)
+    mms_integration (2.1.4)
       rails (~> 3.2.8)
 
 GIT
@@ -301,11 +301,11 @@ DEPENDENCIES
   interface_utils (= 2.0.5)!
   jquery-rails
   json
-  kmaps_engine (= 1.5.0)!
+  kmaps_engine (= 1.5.1)!
   libv8 (= 3.3.10.2)
   makandra_resource_controller
   memcache-client
-  mms_integration (= 2.1.3)!
+  mms_integration (= 2.1.4)!
   mongrel
   mysql2
   newrelic_rpm
@@ -322,7 +322,7 @@ DEPENDENCIES
   shanti_integration (= 2.1.7)!
   spatial_adapter (= 1.3.1)!
   spawn (= 1.0.1)!
-  subjects_engine (= 0.1.9)!
+  subjects_engine (= 0.2.0)!
   system_timer
   therubyracer
   tinymce-rails (= 3.5.6)
