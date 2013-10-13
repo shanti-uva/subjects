@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130926025922) do
+ActiveRecord::Schema.define(:version => 20131012021112) do
 
   create_table "authors_descriptions", :id => false, :force => true do |t|
     t.integer "description_id", :null => false
@@ -120,6 +120,7 @@ ActiveRecord::Schema.define(:version => 20130926025922) do
     t.text     "caption"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "place_id"
   end
 
   create_table "feature_geo_codes", :force => true do |t|

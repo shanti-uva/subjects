@@ -26,7 +26,6 @@ end
 gem 'hpricot', '>= 0.8.6'
 gem 'rack-openid', :require => 'rack/openid'
 gem 'will_paginate', '~> 3.0'
-gem 'georuby'
 gem 'jquery-rails'
 gem 'tinymce-rails', '3.5.6' # compatible with ruby 1.8.7
 gem 'memcache-client'
@@ -41,7 +40,6 @@ gem 'system_timer'
 gem 'passiverecord',              '0.2',          :git => 'git://github.com/ambethia/passiverecord.git'
 gem 'restful-authentication',     '2.0.0.beta1',  :git => 'git://github.com/Satish/restful-authentication.git', :branch => 'rails3'
 gem 'spawn',                      '1.0.1',        :git => 'git://github.com/kartofflly/spawn.git'
-gem 'spatial_adapter',            '1.3.1',        :git => 'git://github.com/movableink/spatial_adapter.git'
 
 gem 'active_resource_extensions', '2.0.7',        :git => 'git://github.com/thl/active_resource_extensions.git',  :tag => 'v2.0.7' #:path => '../../thl/engines/active_resource_extensions'
 gem 'acts_as_family_tree',        '1.0.3',        :git => 'git://github.com/thl/acts_as_family_tree.git',         :tag => 'v1.0.3' #:path => '../../thl/engines/acts_as_family_tree'
@@ -50,14 +48,14 @@ gem 'complex_dates',              '2.0.5',        :git => 'git://github.com/thl/
 gem 'complex_scripts',            '2.0.7',        :git => 'git://github.com/thl/complex_scripts.git',             :tag => 'v2.0.7' #:path => '../../thl/engines/complex_scripts'
 gem 'dictionary_integration',     '2.0.2',        :git => 'git://github.com/thl/dictionary_integration.git',      :tag => 'v2.0.2' #:path => '../../thl/engines/dictionary_integration'
 gem 'interface_utils',            '2.0.5',        :git => 'git://github.com/thl/interface_utils.git',             :tag => 'v2.0.5' #:path => '../../thl/engines/interface_utils'
-gem 'kmaps_engine',               '1.5.2',        :git => 'git://github.com/shanti-uva/kmaps_engine.git',         :tag => 'v1.5.2' #:path => '../engines/kmaps_engine'
+gem 'kmaps_engine',               '1.5.3',        :git => 'git://github.com/shanti-uva/kmaps_engine.git',         :tag => 'v1.5.3' #:path => '../engines/kmaps_engine'
 gem 'mms_integration',            '2.1.4',        :git => 'git://github.com/thl/mms_integration.git',             :tag => 'v2.1.4' #:path => '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.0.5',        :git => 'git://github.com/thl/places_integration.git',          :tag => 'v2.0.5' #:path => '../../thl/engines/places_integration'
 gem 'proxy_engine',               '2.0.2',        :git => 'git://github.com/thl/proxy_engine.git',                :tag => 'v2.0.2' #:path => '../../thl/engines/proxy_engine'
 gem 'shanti_integration',         '2.1.7',        :git => 'git://github.com/shanti-uva/shanti_integration.git',   :tag => 'v2.1.7' #:path => '../engines/shanti_integration'
 # gem 'topical_map_integration',    '3.0.4',        :git => 'git://github.com/thl/topical_map_integration.git',     :tag => 'v3.0.4' #:path => '../../thl/engines/topical_map_integration'
 # gem 'topical_map_to_kmaps',       '0.0.3',        :git => 'git://github.com/shanti-uva/topical_map_to_kmaps.git', :tag => 'v0.0.3' #:path => '../engines/topical_map_to_kmaps'
-gem 'subjects_engine',            '0.2.0',        :git => 'git://github.com/shanti-uva/subjects_engine.git',      :tag => 'v0.2.0' #:path => '../engines/subjects_engine'
+gem 'subjects_engine',            '0.2.1',        :git => 'git://github.com/shanti-uva/subjects_engine.git',      :tag => 'v0.2.1' #:path => '../engines/subjects_engine'
 gem 'universal_navigation',       '2.0.9',        :git => 'git://github.com/thl/universal_navigation.git',        :tag => 'v2.0.9' #:path => '../../thl/engines/universal_navigation'
 
 # To use ActiveModel has_secure_password
