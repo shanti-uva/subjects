@@ -49,7 +49,7 @@ gem 'complex_scripts',            '2.0.7',        :git => 'git://github.com/thl/
 gem 'dictionary_integration',     '2.0.2',        :git => 'git://github.com/thl/dictionary_integration.git',      :tag => 'v2.0.2' #:path => '../../thl/engines/dictionary_integration'
 gem 'interface_utils',            '2.0.5',        :git => 'git://github.com/thl/interface_utils.git',             :tag => 'v2.0.5' #:path => '../../thl/engines/interface_utils'
 gem 'kmaps_engine',               '1.5.6',        :git => 'git://github.com/shanti-uva/kmaps_engine.git',         :tag => 'v1.5.6' #:path => '../engines/kmaps_engine'
-gem 'mms_integration',            '2.1.4',        :git => 'git://github.com/thl/mms_integration.git',             :tag => 'v2.1.4' #:path => '../../thl/engines/mms_integration'
+gem 'mms_integration',            '2.1.5',        :git => 'git://github.com/thl/mms_integration.git',             :tag => 'v2.1.5' #:path => '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.0.6',        :git => 'git://github.com/thl/places_integration.git',          :tag => 'v2.0.6' #:path => '../../thl/engines/places_integration'
 gem 'proxy_engine',               '2.0.2',        :git => 'git://github.com/thl/proxy_engine.git',                :tag => 'v2.0.2' #:path => '../../thl/engines/proxy_engine'
 gem 'shanti_integration',         '2.1.7',        :git => 'git://github.com/shanti-uva/shanti_integration.git',   :tag => 'v2.1.7' #:path => '../engines/shanti_integration'
