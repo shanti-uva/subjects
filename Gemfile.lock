@@ -19,26 +19,26 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: f92fd51a36c440d1f601731744a03b26af50836a
-  tag: v1.5.6
+  revision: 3cbb3e94febbc5c46486d73e229601996738a137
+  tag: v1.5.8
   specs:
-    kmaps_engine (1.5.6)
+    kmaps_engine (1.5.8)
       rails (~> 3.2.13)
 
 GIT
   remote: git://github.com/shanti-uva/shanti_integration.git
-  revision: c55bf6965fab393dc4e3f91f8199bded961f93a2
-  tag: v2.1.7
+  revision: bede1c99a5f6c34dd5ba327f3366a6f808539783
+  tag: v2.1.8
   specs:
-    shanti_integration (2.1.7)
+    shanti_integration (2.1.8)
       rails (~> 3.2.8)
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 34cce2c14240eb6c16dc425deea4eef207a7610a
-  tag: v0.2.3
+  revision: d8e75019bb7c5f799ee217744a74882a24c23958
+  tag: v0.2.4
   specs:
-    subjects_engine (0.2.3)
+    subjects_engine (0.2.4)
       rails (~> 3.2.13)
 
 GIT
@@ -290,7 +290,7 @@ DEPENDENCIES
   interface_utils (= 2.0.5)!
   jquery-rails
   json
-  kmaps_engine (= 1.5.6)!
+  kmaps_engine (= 1.5.8)!
   libv8 (= 3.3.10.2)
   makandra_resource_controller
   memcache-client
@@ -308,9 +308,9 @@ DEPENDENCIES
   restful-authentication (= 2.0.0.beta1)!
   ruby-debug
   sass-rails (~> 3.2.3)
-  shanti_integration (= 2.1.7)!
+  shanti_integration (= 2.1.8)!
   spawn (= 1.0.1)!
-  subjects_engine (= 0.2.3)!
+  subjects_engine (= 0.2.4)!
   system_timer
   therubyracer
   tinymce-rails (= 3.5.6)
