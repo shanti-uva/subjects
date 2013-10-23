@@ -19,10 +19,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 5e3f8964914c330bffd5ee76a426485c27a00f93
-  tag: v1.5.9
+  revision: e34d4cd92698d7559cbf248c37ee6431f27b6e8c
+  tag: v1.6.0
   specs:
-    kmaps_engine (1.5.9)
+    kmaps_engine (1.6.0)
       rails (~> 3.2.13)
 
 GIT
@@ -75,10 +75,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/complex_scripts.git
-  revision: a531e71fa205aefa88739d1de8f24ace679fc4f1
-  tag: v2.0.7
+  revision: de0e58a00e7b40705bbae6ad1a46980a5deca55b
+  tag: v2.0.8
   specs:
-    complex_scripts (2.0.7)
+    complex_scripts (2.0.8)
       passiverecord (= 0.2)
       rails (~> 3.2.8)
 
@@ -282,7 +282,7 @@ DEPENDENCIES
   authenticated_system (= 2.1.3)!
   coffee-rails (~> 3.2.1)
   complex_dates (= 2.0.5)!
-  complex_scripts (= 2.0.7)!
+  complex_scripts (= 2.0.8)!
   dictionary_integration (= 2.0.2)!
   dynamic_form
   exception_notification
@@ -290,7 +290,7 @@ DEPENDENCIES
   interface_utils (= 2.0.5)!
   jquery-rails
   json
-  kmaps_engine (= 1.5.9)!
+  kmaps_engine (= 1.6.0)!
   libv8 (= 3.3.10.2)
   makandra_resource_controller
   memcache-client

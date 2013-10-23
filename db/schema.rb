@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131012021112) do
+ActiveRecord::Schema.define(:version => 20131023030532) do
 
   create_table "authors_descriptions", :id => false, :force => true do |t|
     t.integer "description_id", :null => false
@@ -41,12 +41,12 @@ ActiveRecord::Schema.define(:version => 20131012021112) do
   add_index "cached_feature_names", ["feature_id", "view_id"], :name => "index_cached_feature_names_on_feature_id_and_view_id", :unique => true
 
   create_table "captions", :force => true do |t|
-    t.integer  "language_id",                :null => false
-    t.string   "content",     :limit => 150, :null => false
-    t.integer  "author_id",                  :null => false
-    t.integer  "feature_id",                 :null => false
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.integer  "language_id", :null => false
+    t.text     "content",     :null => false
+    t.integer  "author_id",   :null => false
+    t.integer  "feature_id",  :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "citations", :force => true do |t|
