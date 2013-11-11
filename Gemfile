@@ -43,7 +43,7 @@ gem 'spawn',                      '1.0.1',        :git => 'git://github.com/kart
 
 gem 'active_resource_extensions', '2.0.8',        :git => 'git://github.com/thl/active_resource_extensions.git',  :tag => 'v2.0.8' #:path => '../../thl/engines/active_resource_extensions'
 gem 'acts_as_family_tree',        '1.0.3',        :git => 'git://github.com/thl/acts_as_family_tree.git',         :tag => 'v1.0.3' #:path => '../../thl/engines/acts_as_family_tree'
-gem 'authenticated_system',       '2.1.4',        :git => 'git://github.com/thl/authenticated_system.git',        :tag => 'v2.1.4' #:path => '../../thl/engines/authenticated_system'
+gem 'authenticated_system',       '2.1.5',        :git => 'git://github.com/thl/authenticated_system.git',        :tag => 'v2.1.5' #:path => '../../thl/engines/authenticated_system'
 gem 'complex_dates',              '2.0.5',        :git => 'git://github.com/thl/complex_dates.git',               :tag => 'v2.0.5' #:path => '../engines/complex_dates'
 gem 'complex_scripts',            '2.1.0',        :git => 'git://github.com/thl/complex_scripts.git',             :tag => 'v2.1.0' #:path => '../../thl/engines/complex_scripts'
 gem 'dictionary_integration',     '2.0.2',        :git => 'git://github.com/thl/dictionary_integration.git',      :tag => 'v2.0.2' #:path => '../../thl/engines/dictionary_integration'

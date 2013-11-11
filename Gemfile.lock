@@ -59,10 +59,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/authenticated_system.git
-  revision: 2ac68087a70230d93d3a3b314748bb4f20271a72
-  tag: v2.1.4
+  revision: 7f7521a29d856fb0d3958bc645970a6ed0907bb0
+  tag: v2.1.5
   specs:
-    authenticated_system (2.1.4)
+    authenticated_system (2.1.5)
       rails (~> 3.2.8)
 
 GIT
@@ -279,7 +279,7 @@ DEPENDENCIES
   active_resource_extensions (= 2.0.8)!
   acts_as_family_tree (= 1.0.3)!
   annotate
-  authenticated_system (= 2.1.4)!
+  authenticated_system (= 2.1.5)!
   coffee-rails (~> 3.2.1)
   complex_dates (= 2.0.5)!
   complex_scripts (= 2.1.0)!
