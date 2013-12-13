@@ -19,10 +19,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 4df1b7fd9c31c5042201f8bc4cbf70e27cfb5775
-  tag: v1.6.9
+  revision: 1e8ba763d0d955346e501b8b62f27f1ec339be10
+  tag: v1.7.0
   specs:
-    kmaps_engine (1.6.9)
+    kmaps_engine (1.7.0)
       rails (~> 3.2.13)
 
 GIT
@@ -290,7 +290,7 @@ DEPENDENCIES
   interface_utils (= 2.0.5)!
   jquery-rails
   json
-  kmaps_engine (= 1.6.9)!
+  kmaps_engine (= 1.7.0)!
   libv8 (= 3.3.10.2)
   makandra_resource_controller
   memcache-client
