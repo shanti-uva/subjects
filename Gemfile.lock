@@ -19,10 +19,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 1e8ba763d0d955346e501b8b62f27f1ec339be10
-  tag: v1.7.0
+  revision: 38520ff35d30cdba7e2e2e0e888c6a79cc434da4
+  tag: v1.7.1
   specs:
-    kmaps_engine (1.7.0)
+    kmaps_engine (1.7.1)
       rails (~> 3.2.13)
 
 GIT
@@ -92,10 +92,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/interface_utils.git
-  revision: 961ae0cae81f080110968a9478c212e94fec1ca8
-  tag: v2.0.5
+  revision: 698ba1ae6d9c65fa6effdefae169ab0386a8a0d2
+  tag: v2.0.6
   specs:
-    interface_utils (2.0.5)
+    interface_utils (2.0.6)
       rails (~> 3.2.11)
 
 GIT
@@ -287,10 +287,10 @@ DEPENDENCIES
   dynamic_form
   exception_notification
   hpricot (>= 0.8.6)
-  interface_utils (= 2.0.5)!
+  interface_utils (= 2.0.6)!
   jquery-rails
   json
-  kmaps_engine (= 1.7.0)!
+  kmaps_engine (= 1.7.1)!
   libv8 (= 3.3.10.2)
   makandra_resource_controller
   memcache-client
