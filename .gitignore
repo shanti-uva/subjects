@@ -12,7 +12,8 @@
 /tmp
 .DS_Store
 
-config/*.yml
+config/database.yml
+config/topical_map_database.yml
 config/environments/quandu_*.rb
 doc/plugins/*
 vendor/bundle/
