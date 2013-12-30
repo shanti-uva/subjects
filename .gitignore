@@ -13,6 +13,7 @@
 .DS_Store
 
 config/database.yml
+config/newrelic.yml
 config/topical_map_database.yml
 config/environments/quandu_*.rb
 doc/plugins/*
