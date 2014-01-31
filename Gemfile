@@ -54,7 +54,7 @@ gem 'places_integration',         '2.0.6',        :git => 'git://github.com/thl/
 gem 'proxy_engine',               '2.0.2',        :git => 'git://github.com/thl/proxy_engine.git',                :tag => 'v2.0.2' #:path => '../../thl/engines/proxy_engine'
 gem 'shanti_integration',         '2.2.2',        :git => 'git://github.com/shanti-uva/shanti_integration.git',   :tag => 'v2.2.2' #:path => '../engines/shanti_integration'
 # gem 'topical_map_integration',    '3.0.4',        :git => 'git://github.com/thl/topical_map_integration.git',     :tag => 'v3.0.4' #:path => '../../thl/engines/topical_map_integration'
-# gem 'topical_map_to_kmaps',       '0.0.3',        :git => 'git://github.com/shanti-uva/topical_map_to_kmaps.git', :tag => 'v0.0.3' #:path => '../engines/topical_map_to_kmaps'
+# gem 'topical_map_to_kmaps',       '0.0.4',        :git => 'git://github.com/shanti-uva/topical_map_to_kmaps.git', :tag => 'v0.0.4' #:path => '../engines/topical_map_to_kmaps'
 gem 'subjects_engine',            '0.2.7',        :git => 'git://github.com/shanti-uva/subjects_engine.git',      :tag => 'v0.2.7' #:path => '../engines/subjects_engine'
 gem 'universal_navigation',       '2.0.9',        :git => 'git://github.com/thl/universal_navigation.git',        :tag => 'v2.0.9' #:path => '../../thl/engines/universal_navigation'
 
