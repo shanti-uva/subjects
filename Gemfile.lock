@@ -43,10 +43,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/active_resource_extensions.git
-  revision: db24f12773a5cb3c216e68c40648787b005fb090
-  tag: v2.1.1
+  revision: 1464bc0d498df0fcf279b3c5f7f0762d031f8d3d
+  tag: v2.1.2
   specs:
-    active_resource_extensions (2.1.1)
+    active_resource_extensions (2.1.2)
       rails (~> 3.2.8)
 
 GIT
@@ -100,10 +100,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/places_integration.git
-  revision: 6ed55e0f94adab3f0251e598c7109dc931e5bb31
-  tag: v2.1.0
+  revision: 30f67eb80d2849128b2dc1f08fb8b2d5adfb55e5
+  tag: v2.1.1
   specs:
-    places_integration (2.1.0)
+    places_integration (2.1.1)
       rails (~> 3.2.8)
 
 GIT
@@ -258,7 +258,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_resource_extensions (= 2.1.1)!
+  active_resource_extensions (= 2.1.2)!
   acts_as_family_tree (= 1.1.0)!
   annotate
   authenticated_system (= 2.2.3)!
@@ -280,7 +280,7 @@ DEPENDENCIES
   open_id_authentication
   passiverecord (= 0.2)!
   pg
-  places_integration (= 2.1.0)!
+  places_integration (= 2.1.1)!
   proxy_engine (= 2.1.0)!
   rack-openid
   rails (= 3.2.13)
