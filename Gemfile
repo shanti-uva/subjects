@@ -56,18 +56,18 @@ gem 'restful-authentication',     '2.0.0.beta1',  :github => 'raszi/restful-auth
 
 gem 'active_resource_extensions', '2.1.4',        :github => 'thl/active_resource_extensions',  :tag => 'v2.1.4' #:path => '../../thl/engines/active_resource_extensions'
 gem 'acts_as_family_tree',        '1.1.3',        :github => 'thl/acts_as_family_tree',         :tag => 'v1.1.3' #:path => '../../thl/engines/acts_as_family_tree'
-gem 'authenticated_system',       '2.2.6',        :github => 'thl/authenticated_system',        :tag => 'v2.2.6' #:path => '../../thl/engines/authenticated_system'
-gem 'complex_dates',              '2.1.2',        :github => 'thl/complex_dates',               :tag => 'v2.1.2' #:path => '../../thl/engines/complex_dates'
-gem 'complex_scripts',            '2.2.4',        :github => 'thl/complex_scripts',             :tag => 'v2.2.4' #:path => '../../thl/engines/complex_scripts'
+gem 'authenticated_system',       '2.2.7',        :github => 'thl/authenticated_system',        :tag => 'v2.2.7' #:path => '../../thl/engines/authenticated_system'
+gem 'complex_dates',              '2.1.3',        :github => 'thl/complex_dates',               :tag => 'v2.1.3' #:path => '../../thl/engines/complex_dates'
+gem 'complex_scripts',            '2.2.5',        :github => 'thl/complex_scripts',             :tag => 'v2.2.5' #:path => '../../thl/engines/complex_scripts'
 gem 'interface_utils',            '2.1.6',        :github => 'thl/interface_utils',             :tag => 'v2.1.6' #:path => '../../thl/engines/interface_utils'
-gem 'kmaps_engine',               '2.3.3',        :github => 'shanti-uva/kmaps_engine',         :tag => 'v2.3.3' #:path => '../engines/kmaps_engine'
+gem 'kmaps_engine',               '2.3.4',        :github => 'shanti-uva/kmaps_engine',         :tag => 'v2.3.4' #:path => '../engines/kmaps_engine'
 gem 'mms_integration',            '2.2.3',        :github => 'thl/mms_integration',             :tag => 'v2.2.3' #:path => '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.1.3',        :github => 'thl/places_integration',          :tag => 'v2.1.3' #:path => '../../thl/engines/places_integration'
 gem 'proxy_engine',               '2.1.2',        :github => 'thl/proxy_engine',                :tag => 'v2.1.2' #:path => '../../thl/engines/proxy_engine'
 gem 'shanti_integration',         '2.3.3',        :github => 'shanti-uva/shanti_integration',   :tag => 'v2.3.3' #:path => '../engines/shanti_integration'
 # gem 'topical_map_integration',    '3.1.0',        :github => 'thl/topical_map_integration',     :tag => 'v3.1.0' #:path => '../../thl/engines/topical_map_integration'
 # gem 'topical_map_to_kmaps',       '0.1.0',        :github => 'shanti-uva/topical_map_to_kmaps', :tag => 'v0.1.0' #:path => '../engines/topical_map_to_kmaps'
-gem 'subjects_engine',            '0.3.4',        :github => 'shanti-uva/subjects_engine',      :tag => 'v0.3.4' #:path => '../engines/subjects_engine'
+gem 'subjects_engine',            '0.3.5',        :github => 'shanti-uva/subjects_engine',      :tag => 'v0.3.5' #:path => '../engines/subjects_engine'
 gem 'universal_navigation',       '2.1.2',        :github => 'thl/universal_navigation',        :tag => 'v2.1.2' #:path => '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:
