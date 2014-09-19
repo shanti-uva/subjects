@@ -13,10 +13,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 0d8ded3c09d5a41911e55f4011d42818a40ac6e4
-  tag: v2.3.6
+  revision: 8dd97f46aaf17528328decd43be5c0273ba2094a
+  tag: v2.3.7
   specs:
-    kmaps_engine (2.3.6)
+    kmaps_engine (2.3.7)
       rails (~> 4.0)
 
 GIT
@@ -29,10 +29,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: a688f74d0b4ebe95eee61d309db82e27a7ccf129
-  tag: v0.3.5
+  revision: c227d9fc33594942c6b19d96c1514f33a8325922
+  tag: v0.3.6
   specs:
-    subjects_engine (0.3.5)
+    subjects_engine (0.3.6)
       rails (~> 4.0)
 
 GIT
@@ -79,10 +79,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/interface_utils.git
-  revision: 3d3171680f0502b33172c9851e65068a8f2b97be
-  tag: v2.1.6
+  revision: f4f4b60c9dadd4bc439fec39961571d72df6d940
+  tag: v2.1.7
   specs:
-    interface_utils (2.1.6)
+    interface_utils (2.1.7)
       rails (~> 4.0)
 
 GIT
@@ -291,10 +291,10 @@ DEPENDENCIES
   dynamic_form
   exception_notification
   hpricot
-  interface_utils (= 2.1.6)!
+  interface_utils (= 2.1.7)!
   jbuilder (~> 2.0)
   jquery-rails
-  kmaps_engine (= 2.3.6)!
+  kmaps_engine (= 2.3.7)!
   makandra_resource_controller
   memcache-client
   mms_integration (= 2.2.3)!
@@ -314,7 +314,7 @@ DEPENDENCIES
   shanti_integration (= 2.3.3)!
   spawnling
   spring
-  subjects_engine (= 0.3.5)!
+  subjects_engine (= 0.3.6)!
   therubyracer
   tinymce-rails
   turbolinks
