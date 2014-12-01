@@ -8,6 +8,8 @@ gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -20,6 +22,7 @@ gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -56,19 +59,19 @@ gem 'restful-authentication',     '2.0.0.beta1',  :github => 'raszi/restful-auth
 
 gem 'active_resource_extensions', '2.1.4',        :github => 'thl/active_resource_extensions',  :tag => 'v2.1.4' #:path => '../../thl/engines/active_resource_extensions'
 gem 'acts_as_family_tree',        '1.1.3',        :github => 'thl/acts_as_family_tree',         :tag => 'v1.1.3' #:path => '../../thl/engines/acts_as_family_tree'
-gem 'authenticated_system',       '2.2.9',        :github => 'thl/authenticated_system',        :tag => 'v2.2.9' #:path => '../../thl/engines/authenticated_system'
+gem 'authenticated_system',       '2.3.0',        :github => 'thl/authenticated_system',        :tag => 'v2.3.0' #:path => '../../thl/engines/authenticated_system'
 gem 'complex_dates',              '2.1.3',        :github => 'thl/complex_dates',               :tag => 'v2.1.3' #:path => '../../thl/engines/complex_dates'
 gem 'complex_scripts',            '2.2.6',        :github => 'thl/complex_scripts',             :tag => 'v2.2.6' #:path => '../../thl/engines/complex_scripts'
-gem 'interface_utils',            '2.1.7',        :github => 'thl/interface_utils',             :tag => 'v2.1.7' #:path => '../../thl/engines/interface_utils'
-gem 'kmaps_engine',               '2.3.8',        :github => 'shanti-uva/kmaps_engine',         :tag => 'v2.3.8' #:path => '../engines/kmaps_engine'
+gem 'interface_utils',            '2.2.0',        :github => 'thl/interface_utils',             :tag => 'v2.2.0' #:path => '../../thl/engines/interface_utils'
+gem 'kmaps_engine',               '3.0.0',        :github => 'shanti-uva/kmaps_engine',         :tag => 'v3.0.0' #:path => '../engines/kmaps_engine'
 gem 'mms_integration',            '2.2.3',        :github => 'thl/mms_integration',             :tag => 'v2.2.3' #:path => '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.1.3',        :github => 'thl/places_integration',          :tag => 'v2.1.3' #:path => '../../thl/engines/places_integration'
 gem 'proxy_engine',               '2.1.2',        :github => 'thl/proxy_engine',                :tag => 'v2.1.2' #:path => '../../thl/engines/proxy_engine'
-gem 'shanti_integration',         '2.3.3',        :github => 'shanti-uva/shanti_integration',   :tag => 'v2.3.3' #:path => '../engines/shanti_integration'
+gem 'shanti_integration',         '3.0.0',        :github => 'shanti-uva/shanti_integration',   :tag => 'v3.0.0' #:path => '../engines/shanti_integration'
 # gem 'topical_map_integration',    '3.1.0',        :github => 'thl/topical_map_integration',     :tag => 'v3.1.0' #:path => '../../thl/engines/topical_map_integration'
 # gem 'topical_map_to_kmaps',       '0.1.0',        :github => 'shanti-uva/topical_map_to_kmaps', :tag => 'v0.1.0' #:path => '../engines/topical_map_to_kmaps'
-gem 'subjects_engine',            '0.3.6',        :github => 'shanti-uva/subjects_engine',      :tag => 'v0.3.6' #:path => '../engines/subjects_engine'
-gem 'universal_navigation',       '2.1.2',        :github => 'thl/universal_navigation',        :tag => 'v2.1.2' #:path => '../../thl/engines/universal_navigation'
+gem 'subjects_engine',            '1.0.0',        :github => 'shanti-uva/subjects_engine',      :tag => 'v1.0.0' #:path => '../engines/subjects_engine'
+gem 'universal_navigation',       '3.0.0',        :github => 'thl/universal_navigation',        :tag => 'v3.0.0' #:path => '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:
 gem 'protected_attributes'
