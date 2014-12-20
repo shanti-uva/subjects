@@ -13,10 +13,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: a50908b66f08dc9d5b890ff9c71835c980e4585b
-  tag: v3.0.1
+  revision: 42d9f996330ef5982a4aa64957f3744d8a76bb37
+  tag: v3.0.2
   specs:
-    kmaps_engine (3.0.1)
+    kmaps_engine (3.0.2)
       rails (~> 4.0)
 
 GIT
@@ -29,10 +29,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: f8d199f653a540864d33350f30a4ca25fb3662ab
-  tag: v1.0.0
+  revision: 3e3708316fbdf531537f9203bb19f7f66a5b3dda
+  tag: v1.0.1
   specs:
-    subjects_engine (1.0.0)
+    subjects_engine (1.0.1)
       rails (~> 4.0)
 
 GIT
@@ -87,10 +87,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/mms_integration.git
-  revision: 84a76f054c0d088ffd6e50241397a8b717a0cd49
-  tag: v2.2.3
+  revision: 15cc11f59fd461081ffeea9b57fa536aa780b249
+  tag: v2.2.4
   specs:
-    mms_integration (2.2.3)
+    mms_integration (2.2.4)
       rails (~> 4.0)
 
 GIT
@@ -111,10 +111,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/universal_navigation.git
-  revision: b5c59d7939b65e0037f5f257ce347e4db48fda7a
-  tag: v3.0.0
+  revision: fd0ce709ed8581a245460385a56e7b8af1802df6
+  tag: v3.0.1
   specs:
-    universal_navigation (3.0.0)
+    universal_navigation (3.0.1)
       rails (~> 4.0)
 
 GEM
@@ -303,10 +303,10 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 3.0.1)!
+  kmaps_engine (= 3.0.2)!
   makandra_resource_controller
   memcache-client
-  mms_integration (= 2.2.3)!
+  mms_integration (= 2.2.4)!
   newrelic_rpm
   open_id_authentication
   passiverecord (= 0.2)!
@@ -323,10 +323,10 @@ DEPENDENCIES
   shanti_integration (= 3.0.0)!
   spawnling
   spring
-  subjects_engine (= 1.0.0)!
+  subjects_engine (= 1.0.1)!
   therubyracer
   tinymce-rails
   turbolinks
   uglifier (>= 1.3.0)
-  universal_navigation (= 3.0.0)!
+  universal_navigation (= 3.0.1)!
   will_paginate
