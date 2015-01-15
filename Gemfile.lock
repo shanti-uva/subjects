@@ -12,30 +12,6 @@ GIT
     restful-authentication (2.0.0.beta1)
 
 GIT
-  remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 42d9f996330ef5982a4aa64957f3744d8a76bb37
-  tag: v3.0.2
-  specs:
-    kmaps_engine (3.0.2)
-      rails (~> 4.0)
-
-GIT
-  remote: git://github.com/shanti-uva/shanti_integration.git
-  revision: 7a3db2523d76c3e562eb046aa2cd14e5bcd5acd5
-  tag: v3.0.0
-  specs:
-    shanti_integration (3.0.0)
-      rails (~> 4.0)
-
-GIT
-  remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 3e3708316fbdf531537f9203bb19f7f66a5b3dda
-  tag: v1.0.1
-  specs:
-    subjects_engine (1.0.1)
-      rails (~> 4.0)
-
-GIT
   remote: git://github.com/thl/active_resource_extensions.git
   revision: 0f896c2faedebca901846014902b301403368596
   tag: v2.1.4
@@ -78,27 +54,11 @@ GIT
       rails (~> 4.0)
 
 GIT
-  remote: git://github.com/thl/interface_utils.git
-  revision: db4a804c4b65a59c96824360722ff3418783a3e6
-  tag: v2.2.0
-  specs:
-    interface_utils (2.2.0)
-      rails (~> 4.0)
-
-GIT
   remote: git://github.com/thl/mms_integration.git
   revision: 15cc11f59fd461081ffeea9b57fa536aa780b249
   tag: v2.2.4
   specs:
     mms_integration (2.2.4)
-      rails (~> 4.0)
-
-GIT
-  remote: git://github.com/thl/places_integration.git
-  revision: d841d1fb2dda898977e62884371c1d868e879d29
-  tag: v2.1.3
-  specs:
-    places_integration (2.1.3)
       rails (~> 4.0)
 
 GIT
@@ -115,6 +75,36 @@ GIT
   tag: v3.0.1
   specs:
     universal_navigation (3.0.1)
+      rails (~> 4.0)
+
+PATH
+  remote: ../../thl/engines/interface_utils
+  specs:
+    interface_utils (2.2.0)
+      rails (~> 4.0)
+
+PATH
+  remote: ../../thl/engines/places_integration
+  specs:
+    places_integration (2.1.3)
+      rails (~> 4.0)
+
+PATH
+  remote: ../engines/kmaps_engine
+  specs:
+    kmaps_engine (3.0.2)
+      rails (~> 4.0)
+
+PATH
+  remote: ../engines/shanti_integration
+  specs:
+    shanti_integration (3.0.0)
+      rails (~> 4.0)
+
+PATH
+  remote: ../engines/subjects_engine
+  specs:
+    subjects_engine (1.0.1)
       rails (~> 4.0)
 
 GEM
