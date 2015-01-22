@@ -11,7 +11,7 @@
 /log/*.log
 /tmp
 .DS_Store
-
+*.csv
 config/database.yml
 config/newrelic.yml
 config/topical_map_database.yml

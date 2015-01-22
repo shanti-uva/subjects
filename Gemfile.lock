@@ -13,10 +13,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: e9b641bd96634b7814c3d5842c397922e2b421f1
-  tag: v3.0.4
+  revision: 176c37711820008af5c7c0531eb3580b4ac5b96a
+  tag: v3.0.5
   specs:
-    kmaps_engine (3.0.4)
+    kmaps_engine (3.0.5)
       rails (~> 4.0)
 
 GIT
@@ -29,10 +29,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 5612b8c82259eeef2cf8cf4aa735f5917ec1a355
-  tag: v1.0.3
+  revision: b0259ecffc40c698d06a427bae076cba25c2099f
+  tag: v1.0.4
   specs:
-    subjects_engine (1.0.3)
+    subjects_engine (1.0.4)
       rails (~> 4.0)
 
 GIT
@@ -303,7 +303,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 3.0.4)!
+  kmaps_engine (= 3.0.5)!
   makandra_resource_controller
   memcache-client
   mms_integration (= 2.2.5)!
@@ -323,7 +323,7 @@ DEPENDENCIES
   shanti_integration (= 3.0.1)!
   spawnling
   spring
-  subjects_engine (= 1.0.3)!
+  subjects_engine (= 1.0.4)!
   therubyracer
   tinymce-rails
   turbolinks
