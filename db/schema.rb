@@ -11,10 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140726181136) do
-
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+ActiveRecord::Schema.define(version: 20150409192708) do
 
   create_table "authors_descriptions", id: false, force: true do |t|
     t.integer "description_id", null: false
@@ -60,6 +57,7 @@ ActiveRecord::Schema.define(version: 20140726181136) do
     t.text     "notes"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "info_source_type", null: false
   end
 
   add_index "citations", ["citable_id", "citable_type"], name: "citations_1_idx", using: :btree
@@ -402,8 +400,8 @@ ActiveRecord::Schema.define(version: 20140726181136) do
     t.string   "path",        null: false
     t.string   "title",       null: false
     t.integer  "citation_id", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "xml_documents", force: true do |t|
