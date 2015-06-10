@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150409192708) do
+ActiveRecord::Schema.define(version: 20150508181641) do
 
   create_table "authors_descriptions", id: false, force: true do |t|
     t.integer "description_id", null: false
@@ -108,13 +108,14 @@ ActiveRecord::Schema.define(version: 20150409192708) do
   end
 
   create_table "descriptions", force: true do |t|
-    t.integer  "feature_id",                 null: false
-    t.text     "content",                    null: false
-    t.boolean  "is_primary", default: false, null: false
+    t.integer  "feature_id",                  null: false
+    t.text     "content",                     null: false
+    t.boolean  "is_primary",  default: false, null: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "title"
     t.string   "source_url"
+    t.integer  "language_id",                 null: false
   end
 
   create_table "external_pictures", force: true do |t|
