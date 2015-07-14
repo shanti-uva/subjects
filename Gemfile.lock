@@ -13,10 +13,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: fab76505af8ee3905306c69ddb256d78692a8802
-  tag: v3.1.9
+  revision: 5a109cee0faed06aaee5ff4206c0d34f6369d847
+  tag: v3.2.0
   specs:
-    kmaps_engine (3.1.9)
+    kmaps_engine (3.2.0)
       rails (~> 4.1.5)
 
 GIT
@@ -88,10 +88,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/interface_utils.git
-  revision: 9bf755a57b9432a53eb1676c6a11155e5b3d9a19
-  tag: v2.2.3
+  revision: 017d7c38f103359b4dbba35e5945ffbfb7f9f40c
+  tag: v2.2.4
   specs:
-    interface_utils (2.2.3)
+    interface_utils (2.2.4)
       rails (~> 4.0)
 
 GIT
@@ -255,6 +255,8 @@ GEM
     rdoc (4.1.1)
       json (~> 1.4)
     ref (1.0.5)
+    rsolr (1.0.12)
+      builder (>= 2.1.2)
     ruby-openid (2.5.0)
     sass (3.2.19)
     sass-rails (4.0.3)
@@ -317,11 +319,11 @@ DEPENDENCIES
   dynamic_form
   exception_notification
   hpricot
-  interface_utils (= 2.2.3)!
+  interface_utils (= 2.2.4)!
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 3.1.9)!
+  kmaps_engine (= 3.2.0)!
   makandra_resource_controller
   memcache-client
   mms_integration (= 2.2.6)!
@@ -336,6 +338,7 @@ DEPENDENCIES
   rails (= 4.1.5)
   rails-observers
   restful-authentication (= 2.0.0.beta1)!
+  rsolr
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   shanti_integration (= 3.1.1)!
