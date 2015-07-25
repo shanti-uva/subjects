@@ -14,6 +14,7 @@
 *.csv
 config/database.yml
 config/newrelic.yml
+config/flare.yml
 config/topical_map_database.yml
 config/environments/quandu_*.rb
 doc/plugins/*
