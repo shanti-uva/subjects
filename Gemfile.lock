@@ -86,10 +86,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/interface_utils.git
-  revision: 449b0588c561cf21e500e33e7479d5e227d6ea23
-  tag: v2.2.6
+  revision: c1b5bc446fa9cf3ee4b037bebde6542578821e8f
+  tag: v2.2.7
   specs:
-    interface_utils (2.2.6)
+    interface_utils (2.2.7)
       rails (~> 4.0)
 
 GIT
@@ -308,7 +308,7 @@ DEPENDENCIES
   dynamic_form
   exception_notification
   hpricot
-  interface_utils (= 2.2.6)!
+  interface_utils (= 2.2.7)!
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails
