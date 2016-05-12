@@ -9,7 +9,6 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require kmaps_engine/application
- *= require subjects_engine/application
  *= require shanti_integration/application
  *= require universal_navigation/application
  */
