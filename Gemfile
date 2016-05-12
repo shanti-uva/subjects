@@ -68,11 +68,11 @@ gem 'mms_integration',            '2.2.6',        github: 'thl/mms_integration',
 gem 'places_integration',         '2.1.5',        github: 'thl/places_integration',          tag: 'v2.1.5' #path: '../../thl/engines/places_integration'
 gem 'proxy_engine',               '2.1.2',        github: 'thl/proxy_engine',                tag: 'v2.1.2' #path: '../../thl/engines/proxy_engine'
 gem 'resource_controller',        '0.9.0',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.0' #path: '../engines/resource_controller'
-gem 'shanti_integration',         '3.1.4',        github: 'shanti-uva/shanti_integration',   tag: 'v3.1.4' #path: '../engines/shanti_integration'
+gem 'shanti_integration',         '3.1.5',        github: 'shanti-uva/shanti_integration',   tag: 'v3.1.5' #path: '../engines/shanti_integration'
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
-gem 'subjects_engine',            '1.1.1',        github: 'shanti-uva/subjects_engine',      tag: 'v1.1.1' #path: '../engines/subjects_engine'
-gem 'universal_navigation',       '3.0.3',        github: 'thl/universal_navigation',        tag: 'v3.0.3' #path: '../../thl/engines/universal_navigation'
+gem 'subjects_engine',            '1.1.2',        github: 'shanti-uva/subjects_engine',      tag: 'v1.1.2' #path: '../engines/subjects_engine'
+gem 'universal_navigation',       '3.0.4',        github: 'thl/universal_navigation',        tag: 'v3.0.4' #path: '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:
 gem 'protected_attributes'

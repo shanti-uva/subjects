@@ -28,18 +28,18 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/shanti_integration.git
-  revision: e73d3a72e00c886b52dc37f5886d7c922b26d794
-  tag: v3.1.4
+  revision: 6b682e125914c0ace6eeb6a2dbe630ce818e786c
+  tag: v3.1.5
   specs:
-    shanti_integration (3.1.4)
+    shanti_integration (3.1.5)
       rails (~> 4.0)
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: c7f747558b0f0299a2248c93dab5535c01da5c74
-  tag: v1.1.1
+  revision: d686f6cf7cea80ec2672838c3355458fdb89e95c
+  tag: v1.1.2
   specs:
-    subjects_engine (1.1.1)
+    subjects_engine (1.1.2)
       rails (~> 4.0)
 
 GIT
@@ -118,10 +118,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/universal_navigation.git
-  revision: 3f87986bba335e27b594c19bf6e0fbb5a74b28b5
-  tag: v3.0.3
+  revision: bd318b00f5bc9fd68410fa6cc2e0fcc23dc197f4
+  tag: v3.0.4
   specs:
-    universal_navigation (3.0.3)
+    universal_navigation (3.0.4)
       rails (~> 4.0)
 
 GEM
@@ -330,15 +330,15 @@ DEPENDENCIES
   rsolr
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
-  shanti_integration (= 3.1.4)!
+  shanti_integration (= 3.1.5)!
   spawnling
   spring
-  subjects_engine (= 1.1.1)!
+  subjects_engine (= 1.1.2)!
   therubyracer
   tinymce-rails
   turbolinks
   uglifier (>= 1.3.0)
-  universal_navigation (= 3.0.3)!
+  universal_navigation (= 3.0.4)!
   will_paginate
 
 BUNDLED WITH
