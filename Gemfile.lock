@@ -28,10 +28,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/shanti_integration.git
-  revision: 26b29d0a722cb00dfec1fa468042e08a0a6a1d7c
-  tag: v3.1.9
+  revision: 39ac7c564543325cfa7afc622049b1b465eb18be
+  tag: v3.2.0
   specs:
-    shanti_integration (3.1.9)
+    shanti_integration (3.2.0)
       rails (~> 4.0)
 
 GIT
@@ -330,7 +330,7 @@ DEPENDENCIES
   rsolr
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
-  shanti_integration (= 3.1.9)!
+  shanti_integration (= 3.2.0)!
   spawnling
   spring
   subjects_engine (= 1.1.4)!
