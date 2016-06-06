@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150508181641) do
+ActiveRecord::Schema.define(version: 20160531172317) do
+
+  create_table "affiliations", force: true do |t|
+    t.integer  "collection_id",                 null: false
+    t.integer  "feature_id",                    null: false
+    t.integer  "perspective_id"
+    t.boolean  "descendants",    default: true, null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "affiliations", ["collection_id", "feature_id", "perspective_id"], name: "affiliations_on_dependencies", unique: true, using: :btree
 
   create_table "authors_descriptions", id: false, force: true do |t|
     t.integer "description_id", null: false
@@ -62,6 +73,13 @@ ActiveRecord::Schema.define(version: 20150508181641) do
 
   add_index "citations", ["citable_id", "citable_type"], name: "citations_1_idx", using: :btree
   add_index "citations", ["info_source_id"], name: "citations_info_source_id_idx", using: :btree
+
+  create_table "collections_users", id: false, force: true do |t|
+    t.integer "collection_id", null: false
+    t.integer "user_id",       null: false
+  end
+
+  add_index "collections_users", ["user_id", "collection_id"], name: "index_collections_users_on_user_id_and_collection_id", unique: true, using: :btree
 
   create_table "complex_dates", force: true do |t|
     t.integer  "year"
