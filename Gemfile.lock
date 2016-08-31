@@ -350,6 +350,7 @@ DEPENDENCIES
   therubyracer
   tinymce-rails
   universal_navigation (= 3.0.6)!
+  will_paginate
 
 BUNDLED WITH
    1.12.5
