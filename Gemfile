@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0.6'
 gem 'bootstrap-sass', '~> 3.3.5'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
