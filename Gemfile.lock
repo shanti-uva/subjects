@@ -19,10 +19,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/flare.git
-  revision: d03673328904b1e78fed99b5aebd0b565a2a90f3
-  tag: v1.1.0
+  revision: 6321097ab52fc86530c9e898a1570bc3c5e9aef8
+  tag: v1.1.1
   specs:
-    flare (1.1.0)
+    flare (1.1.1)
       faraday
       rails (~> 4.1.5)
       rsolr (~> 2.0.0.pre3)
@@ -331,7 +331,7 @@ DEPENDENCIES
   complex_dates (= 2.2.1)!
   complex_scripts (= 2.2.7)!
   dynamic_form
-  flare (= 1.1.0)!
+  flare (= 1.1.1)!
   hpricot
   interface_utils (= 2.2.9)!
   jquery-rails
