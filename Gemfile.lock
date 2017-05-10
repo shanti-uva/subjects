@@ -62,10 +62,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 0c7d155d3adf860727b095c6390a214016d9826f
-  tag: v1.2.2
+  revision: b9822ed7016afe5437f4112e05e75e4bd1ae9158
+  tag: v1.2.3
   specs:
-    subjects_engine (1.2.2)
+    subjects_engine (1.2.3)
       rails (~> 4.0)
 
 GIT
@@ -354,7 +354,7 @@ DEPENDENCIES
   shanti_integration (= 3.3.5)!
   spawnling (= 2.1.6)!
   spring
-  subjects_engine (= 1.2.2)!
+  subjects_engine (= 1.2.3)!
   therubyracer
   tinymce-rails
   universal_navigation (= 3.0.7)!
