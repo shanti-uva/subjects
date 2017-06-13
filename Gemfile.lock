@@ -29,7 +29,7 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 829c5fe0786cf880e6d2ae0ac8624c687ded1fce
+  revision: 725ec6a1604699269999d20aaa086d5858145c2f
   branch: theme-sync/MANU-3793/drc2r
   specs:
     kmaps_engine (3.9.2)
@@ -62,7 +62,7 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 2f723dbaa5722dba9dfa6cced14a7068f5382aaa
+  revision: eed3c7cf7033acddfbf7a8b8b0bd99e2643a9f60
   branch: theme-sync/MANU-3793/drc2r
   specs:
     subjects_engine (1.2.3)
