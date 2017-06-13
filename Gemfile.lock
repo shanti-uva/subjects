@@ -146,10 +146,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/universal_navigation.git
-  revision: ab12eae8f1970a7ba8c0b5af70830c1f50e90d20
-  tag: v3.0.7
+  revision: a270db50c7290ff655b51277902c101aeec9d731
+  tag: v3.0.8
   specs:
-    universal_navigation (3.0.7)
+    universal_navigation (3.0.8)
       rails (~> 4.0)
 
 GEM
@@ -357,7 +357,7 @@ DEPENDENCIES
   subjects_engine (= 1.2.3)!
   therubyracer
   tinymce-rails
-  universal_navigation (= 3.0.7)!
+  universal_navigation (= 3.0.8)!
   will_paginate
 
 BUNDLED WITH
