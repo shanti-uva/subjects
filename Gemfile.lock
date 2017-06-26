@@ -29,10 +29,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 725ec6a1604699269999d20aaa086d5858145c2f
-  branch: theme-sync/MANU-3793/drc2r
+  revision: 2f4db4a72bab151bdfc609014ef2fa29466f9529
+  tag: v3.9.3
   specs:
-    kmaps_engine (3.9.2)
+    kmaps_engine (3.9.3)
       annotate
       coffee-rails (~> 4.0.0)
       exception_notification
@@ -54,18 +54,18 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/shanti_integration.git
-  revision: 1f1f0a6e31d27e33790eb1b0ce3b7649c7fb0ef0
-  branch: theme-sync/MANU-3793/drc2r
+  revision: 19550820eea27d45f23c0dbfc6dc9892b41d3365
+  tag: v3.3.6
   specs:
-    shanti_integration (3.3.5)
+    shanti_integration (3.3.6)
       rails (~> 4.0)
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: eed3c7cf7033acddfbf7a8b8b0bd99e2643a9f60
-  branch: theme-sync/MANU-3793/drc2r
+  revision: b1be1c73dffce355bf740196fc5b870854415403
+  tag: v1.2.4
   specs:
-    subjects_engine (1.2.3)
+    subjects_engine (1.2.4)
       rails (~> 4.0)
 
 GIT
@@ -337,7 +337,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 3.9.2)!
+  kmaps_engine (= 3.9.3)!
   mms_integration (= 2.3.2)!
   newrelic_rpm
   open_id_authentication
@@ -351,10 +351,10 @@ DEPENDENCIES
   restful-authentication (= 2.0.0.beta1)!
   sass-rails (~> 5.0.6)
   sdoc (~> 0.4.0)
-  shanti_integration (= 3.3.5)!
+  shanti_integration (= 3.3.6)!
   spawnling (= 2.1.6)!
   spring
-  subjects_engine (= 1.2.3)!
+  subjects_engine (= 1.2.4)!
   therubyracer
   tinymce-rails
   universal_navigation (= 3.0.8)!
