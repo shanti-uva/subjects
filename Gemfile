@@ -42,8 +42,8 @@ gem 'authenticated_system',       '2.3.4',        github: 'thl/authenticated_sys
 gem 'complex_dates',              '2.2.2',        github: 'thl/complex_dates',               tag: 'v2.2.2' #path: '../../thl/engines/complex_dates'
 gem 'complex_scripts',            '2.2.7',        github: 'thl/complex_scripts',             tag: 'v2.2.7' #path: '../../thl/engines/complex_scripts'
 gem 'interface_utils',            '2.3.1',        github: 'thl/interface_utils',             tag: 'v2.3.1' #path: '../../thl/engines/interface_utils'
-gem 'flare',                      '1.1.4',        github: 'shanti-uva/flare',                tag: 'v1.1.4' #path: '../engines/flare'
-gem 'kmaps_engine',               '4.0.2',        github: 'shanti-uva/kmaps_engine',         tag: 'v4.0.2' #path: '../engines/kmaps_engine'
+gem 'flare',                      '1.1.4',        github: 'shanti-uva/flare',                branch: 'persistent-search/MANU-4008/drc2r' #tag: 'v1.1.4' #path: '../engines/flare'
+gem 'kmaps_engine',               '4.0.2',        github: 'shanti-uva/kmaps_engine',         branch: 'persistent-search/MANU-4008/drc2r' #tag: 'v4.0.2' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.3.2',        github: 'thl/mms_integration',             tag: 'v2.3.2' #path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.1.5',        github: 'thl/places_integration',          tag: 'v2.1.5' #path: '../../thl/engines/places_integration'
 gem 'proxy_engine',               '2.1.2',        github: 'thl/proxy_engine',                tag: 'v2.1.2' #path: '../../thl/engines/proxy_engine'
@@ -51,7 +51,7 @@ gem 'resource_controller',        '0.9.0',        github: 'shanti-uva/resource_c
 gem 'shanti_integration',         '3.3.7',        github: 'shanti-uva/shanti_integration',   tag: 'v3.3.7' #path: '../engines/shanti_integration'
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
-gem 'subjects_engine',            '1.2.9',        github: 'shanti-uva/subjects_engine',      tag: 'v1.2.9' #path: '../engines/subjects_engine'
+gem 'subjects_engine',            '1.2.9',        github: 'shanti-uva/subjects_engine',      branch: 'persistent-search/MANU-4008/drc2r' #tag: 'v1.2.9' #path: '../engines/subjects_engine'
 gem 'universal_navigation',       '3.0.8',        github: 'thl/universal_navigation',        tag: 'v3.0.8' #path: '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:

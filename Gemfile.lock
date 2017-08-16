@@ -19,8 +19,8 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/flare.git
-  revision: 3efbec7b1ce5c920422bacd9220cab84812df742
-  tag: v1.1.4
+  revision: f4df2bf31e22aacdb20dfeb44898a20c53aa4db4
+  branch: persistent-search/MANU-4008/drc2r
   specs:
     flare (1.1.4)
       faraday (~> 0.11.0)
@@ -29,8 +29,8 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 69b49e6bbcb7f611dee94c5afcab9e933a4e2297
-  tag: v4.0.2
+  revision: 021db543d96fc23063384d7491a97ba154175212
+  branch: persistent-search/MANU-4008/drc2r
   specs:
     kmaps_engine (4.0.2)
       annotate
@@ -62,8 +62,8 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: cd7c0962863a2b3ac3193b350b6a439a0d76c6ac
-  tag: v1.2.9
+  revision: a7202ed8747f01ab8598f9488c644eb020ebae00
+  branch: persistent-search/MANU-4008/drc2r
   specs:
     subjects_engine (1.2.9)
       rails (~> 4.0)
@@ -216,7 +216,7 @@ GEM
     debugger-linecache (1.2.0)
     dynamic_form (1.1.4)
     erubis (2.7.0)
-    exception_notification (4.2.1)
+    exception_notification (4.2.2)
       actionmailer (>= 4.0, < 6)
       activesupport (>= 4.0, < 6)
     execjs (2.2.1)
