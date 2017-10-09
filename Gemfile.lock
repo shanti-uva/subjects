@@ -29,8 +29,8 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 0592fc0421f5dbcf34bea50e583eac0e47e54efb
-  tag: v4.0.9
+  revision: 24fc0badc98fc3b513cfbd602910b2dca452c93d
+  branch: improve-related-features-interface/MANU-4311/drc2r
   specs:
     kmaps_engine (4.0.9)
       annotate
@@ -62,8 +62,8 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 8f77d5111cfc629941e909eac58ecf076c0ab21c
-  tag: v1.3.4
+  revision: c172e8bc74bf648f29c5e40c50e6e79a3146536d
+  branch: improve-related-features-interface/MANU-4311/drc2r
   specs:
     subjects_engine (1.3.4)
       rails (~> 4.0)
