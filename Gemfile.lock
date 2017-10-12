@@ -62,7 +62,7 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 63d14020f7895a1d428153476dc0ff52c2606d03
+  revision: a5dc454fbba3ac0b6c984a3716461860a39e89fb
   branch: improve-related-features-interface/MANU-4311/drc2r
   specs:
     subjects_engine (1.3.5)
