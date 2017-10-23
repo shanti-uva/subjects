@@ -62,8 +62,8 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: a5dc454fbba3ac0b6c984a3716461860a39e89fb
-  branch: improve-related-features-interface/MANU-4311/drc2r
+  revision: 476337f1c1a201d27d97965bbfeb865f546dbac0
+  branch: related-features-summary-solr/MANU-4331/drc2r
   specs:
     subjects_engine (1.3.5)
       rails (~> 4.2.5)
