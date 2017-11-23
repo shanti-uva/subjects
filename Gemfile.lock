@@ -114,10 +114,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/interface_utils.git
-  revision: 4ff3cc00227f57102e71355a8be5b5234db0d43c
-  tag: v2.3.3
+  revision: faba09aaeee4f6ab066f9275b16dd09752601775
+  tag: v2.3.5
   specs:
-    interface_utils (2.3.3)
+    interface_utils (2.3.5)
       rails (~> 4.2.5)
 
 GIT
@@ -369,7 +369,7 @@ DEPENDENCIES
   dynamic_form
   flare (= 1.1.7)!
   hpricot
-  interface_utils (= 2.3.3)!
+  interface_utils (= 2.3.5)!
   jbuilder
   jquery-rails
   jquery-ui-rails
@@ -398,4 +398,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-   1.15.4
+   1.16.0

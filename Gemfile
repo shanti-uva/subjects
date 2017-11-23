@@ -38,7 +38,7 @@ gem 'acts_as_family_tree',        '1.1.7',        github: 'thl/acts_as_family_tr
 gem 'authenticated_system',       '2.3.6',        github: 'thl/authenticated_system',        tag: 'v2.3.6' #path: '../../thl/engines/authenticated_system'
 gem 'complex_dates',              '2.2.4',        github: 'thl/complex_dates',               tag: 'v2.2.4' #path: '../../thl/engines/complex_dates'
 gem 'complex_scripts',            '2.3.0',        github: 'thl/complex_scripts',             tag: 'v2.3.0' #path: '../../thl/engines/complex_scripts'
-gem 'interface_utils',            '2.3.3',        github: 'thl/interface_utils',             tag: 'v2.3.3' #path: '../../thl/engines/interface_utils'
+gem 'interface_utils',            '2.3.5',        github: 'thl/interface_utils',             tag: 'v2.3.5' #path: '../../thl/engines/interface_utils'
 gem 'flare',                      '1.1.7',        github: 'shanti-uva/flare',                tag: 'v1.1.7' #path: '../engines/flare'
 gem 'kmaps_engine',               '4.1.0',        github: 'shanti-uva/kmaps_engine',         branch: 'related-features-summary-solr/MANU-4331/drc2r' #tag: 'v4.1.0' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.3.4',        github: 'thl/mms_integration',             tag: 'v2.3.4' #path: '../../thl/engines/mms_integration'
