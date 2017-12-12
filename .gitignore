@@ -6,7 +6,6 @@
 
 # Ignore bundler config
 .bundle
-.byebug_history
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
