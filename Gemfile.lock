@@ -23,8 +23,8 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: 8947a72a2c82b823126dc634844b33c59981d4c2
-  tag: v5.0.6
+  revision: 883d257edd760c8ca50aa97a612f57d12e987c4e
+  branch: flyout-kmapstree-sort-option/MANU-4774/drc2r
   specs:
     kmaps_engine (5.0.6)
       annotate
@@ -434,4 +434,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
