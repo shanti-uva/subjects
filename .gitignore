@@ -4,22 +4,29 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile ~/.gitignore_global
 
-.byebug_history
-# Ignore bundler config
 .bundle
-# Ignore all logfiles and tempfiles.
-/log/*.log
-/tmp
+/vendor/bundle
+.byebug_history
+db/*.sqlite3
+log/*.log
+tmp/
 .DS_Store
+*.tmproj
 *.csv
-config/database.yml
-config/newrelic.yml
-config/flare.yml
-config/topical_map_database.yml
+*.txt
+config/*.yml
 config/environments/quandu_*.rb
 config/storage.yml
+config/environments/bleak_house.rb
 doc/plugins/*
 vendor/bundle/
 www
 public/assets/
 public/shanti/
+public/javascripts/tiny_mce
+public/features
+public/categories
+public/places
+public/assets
+public/shanti
+path
