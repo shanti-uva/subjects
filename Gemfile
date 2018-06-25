@@ -63,7 +63,7 @@ gem 'resource_controller',        '0.9.2',        github: 'shanti-uva/resource_c
 gem 'shanti_integration',         '3.4.2',        github: 'shanti-uva/shanti_integration',   branch: 'mandala-rails-theme-sync/MANU-4933/drc2r' #tag: 'v3.4.2' #path: '../engines/shanti_integration'
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
-gem 'subjects_engine',            '1.4.3',        github: 'shanti-uva/subjects_engine',      tag: 'v1.4.3' #path: '../engines/subjects_engine'
+gem 'subjects_engine',            '1.4.3',        github: 'shanti-uva/subjects_engine',      branch: 'mandala-rails-theme-sync/MANU-4933/drc2r' #tag: 'v1.4.3' #path: '../engines/subjects_engine'
 gem 'universal_navigation',       '3.1.2',        github: 'thl/universal_navigation',        tag: 'v3.1.2' #path: '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:
