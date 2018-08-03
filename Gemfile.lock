@@ -23,10 +23,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 59260f8091de5b984751ba87fb3de74d3d70703c
-  tag: v5.2.2
+  revision: b6abb8b0c6db6cd131296842514453bea87c4215
+  tag: v5.2.6
   specs:
-    kmaps_engine (5.2.2)
+    kmaps_engine (5.2.6)
       annotate
       coffee-rails (~> 4.2)
       exception_notification
@@ -99,10 +99,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/complex_scripts.git
-  revision: 2c6ceed8418f986f54533adda1e582b47fba6696
-  tag: v3.0.5
+  revision: e5784f700a4686f6555ca666967ed631945b1c4e
+  tag: v3.0.7
   specs:
-    complex_scripts (3.0.5)
+    complex_scripts (3.0.7)
       hpricot
       passiverecord (= 0.2)
       rails (>= 4.0)
@@ -417,7 +417,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   complex_dates (= 2.2.6)!
-  complex_scripts (= 3.0.5)!
+  complex_scripts (= 3.0.7)!
   dynamic_form
   flare (= 1.2.1)!
   hpricot
@@ -425,7 +425,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 5.2.2)!
+  kmaps_engine (= 5.2.6)!
   listen (>= 3.0.5, < 3.2)
   mms_integration (= 2.3.6)!
   newrelic_rpm
