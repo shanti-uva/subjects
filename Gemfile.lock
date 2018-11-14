@@ -23,10 +23,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: f43509968ff452272feb5fe02245ddd9add869c2
-  tag: v5.3.9
+  revision: c450cd825cd7efe5d6e09935d94dfbf7546a7fcd
+  tag: v5.4.5
   specs:
-    kmaps_engine (5.3.9)
+    kmaps_engine (5.4.5)
       annotate
       coffee-rails (~> 4.2)
       exception_notification
@@ -57,10 +57,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: a19238c43eff4848ec3996041671e82dd09175ec
-  tag: v1.4.5
+  revision: b6b5f43d362e2895b21a174d567fe65ca9e60c06
+  tag: v1.4.6
   specs:
-    subjects_engine (1.4.5)
+    subjects_engine (1.4.6)
       rails (>= 4.0)
 
 GIT
@@ -91,10 +91,11 @@ GIT
 
 GIT
   remote: git://github.com/thl/complex_dates.git
-  revision: 8f7470089417776ea9820028ecde07dcb40b6c91
-  tag: v2.2.6
+  revision: 65c1c55e510cecfbbe65e1ea2a60541426901c00
+  tag: v2.2.8
   specs:
-    complex_dates (2.2.6)
+    complex_dates (2.2.8)
+      pg (~> 0.18)
       rails (>= 4.0)
 
 GIT
@@ -416,7 +417,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.5)
   byebug
   capybara (~> 2.13)
-  complex_dates (= 2.2.6)!
+  complex_dates (= 2.2.8)!
   complex_scripts (= 3.0.7)!
   dynamic_form
   flare (= 1.2.3)!
@@ -425,7 +426,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 5.3.9)!
+  kmaps_engine (= 5.4.5)!
   listen (>= 3.0.5, < 3.2)
   mms_integration (= 2.3.6)!
   newrelic_rpm
@@ -447,7 +448,7 @@ DEPENDENCIES
   spawnling
   spring
   spring-watcher-listen (~> 2.0.0)
-  subjects_engine (= 1.4.5)!
+  subjects_engine (= 1.4.6)!
   therubyracer
   tinymce-rails
   tzinfo-data
