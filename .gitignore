@@ -19,6 +19,7 @@ config/environments/quandu_*.rb
 config/storage.yml
 config/environments/bleak_house.rb
 doc/plugins/*
+node_modules/
 vendor/bundle/
 www
 public/assets/
@@ -30,3 +31,4 @@ public/places
 public/assets
 public/shanti
 path
+yarn.lock
