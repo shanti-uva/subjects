@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_03_02_180923) do
+ActiveRecord::Schema.define(version: 2019_01_04_234543) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -297,6 +297,14 @@ ActiveRecord::Schema.define(version: 2018_03_02_180923) do
     t.integer "end_line"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "passages", force: :cascade do |t|
+    t.integer "context_id", null: false
+    t.string "context_type", null: false
+    t.text "content", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "people", id: :serial, force: :cascade do |t|
