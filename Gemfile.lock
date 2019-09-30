@@ -23,10 +23,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 0d9471ff3c9f9a126230c14aa7d167950ec567a7
-  tag: v5.7.4
+  revision: 5ba4e9d57d8f7f97dbe1a797e6f3842fd19a6b2e
+  tag: v5.7.5
   specs:
-    kmaps_engine (5.7.4)
+    kmaps_engine (5.7.5)
       annotate
       bootsnap (>= 1.1.0)
       coffee-rails (~> 4.2)
@@ -331,7 +331,7 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (12.3.1)
+    rake (12.3.2)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -418,7 +418,7 @@ DEPENDENCIES
   interface_utils (= 2.3.7)!
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 5.7.4)!
+  kmaps_engine (= 5.7.5)!
   listen (>= 3.0.5, < 3.2)
   mms_integration (= 2.3.6)!
   newrelic_rpm
