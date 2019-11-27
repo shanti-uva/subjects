@@ -16,7 +16,6 @@ tmp/
 *.txt
 config/*.yml
 config/environments/quandu_*.rb
-config/storage.yml
 config/environments/bleak_house.rb
 doc/plugins/*
 node_modules/
