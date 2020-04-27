@@ -3,3 +3,4 @@ enable.localhost: 'no'
 default.perspective.code: 'gen'
 default.view.code: 'roman.popular'
 default.relation_type.code: 'is.part.of'
+server.environment: 'local' # Valid values: local, development, staging and production
