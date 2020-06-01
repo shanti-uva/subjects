@@ -78,10 +78,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/active_resource_extensions.git
-  revision: a9e53946059c911bb304204ef3db4b46763c2270
-  tag: v2.2.1
+  revision: 87a6cb91e15e0060526d3e04ce36da3ffd43588e
+  tag: v2.2.2
   specs:
-    active_resource_extensions (2.2.1)
+    active_resource_extensions (2.2.2)
       activeresource
       hpricot
       rails (>= 4.0)
@@ -131,18 +131,18 @@ GIT
 
 GIT
   remote: git://github.com/thl/mms_integration.git
-  revision: f9b064edaea5477dfe8008cb5df1dba7c061c57e
-  tag: v2.4.0
+  revision: f266594723ebb6410953d6757ff2ad6fc96ec6cf
+  tag: v2.4.1
   specs:
-    mms_integration (2.4.0)
+    mms_integration (2.4.1)
       rails (>= 4.0)
 
 GIT
   remote: git://github.com/thl/places_integration.git
-  revision: 5c86e987db0f14f98c6b5679459fd4d1cc05da7a
-  tag: v2.2.2
+  revision: f31fda1064b8926709d56a3c7f6217f75963a865
+  tag: v2.2.3
   specs:
-    places_integration (2.2.2)
+    places_integration (2.2.3)
       rails (>= 4.0)
 
 GIT
@@ -411,7 +411,7 @@ PLATFORMS
 DEPENDENCIES
   actionpack-action_caching
   actionpack-page_caching
-  active_resource_extensions (= 2.2.1)!
+  active_resource_extensions (= 2.2.2)!
   activemodel-serializers-xml
   activeresource
   acts_as_family_tree (= 1.1.9)!
@@ -432,11 +432,11 @@ DEPENDENCIES
   jquery-ui-rails
   kmaps_engine (= 5.8.8)!
   listen (>= 3.0.5, < 3.2)
-  mms_integration (= 2.4.0)!
+  mms_integration (= 2.4.1)!
   newrelic_rpm
   open_id_authentication
   passiverecord (= 0.2)!
-  places_integration (= 2.2.2)!
+  places_integration (= 2.2.3)!
   proxy_engine (= 2.1.6)!
   rack-openid
   rails (~> 5.2.3)
