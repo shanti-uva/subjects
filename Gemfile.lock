@@ -21,20 +21,24 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/flare.git
-  revision: 09e53df556db53cc948614c3f08f2223c454c88e
-  tag: v1.2.3
+  revision: acc11cebe52e6b96617b5ffafb8946f3b08faf64
+  tag: v1.2.8
   specs:
-    flare (1.2.3)
+    flare (1.2.8)
+      activeresource
+      daemons
+      delayed_job_active_record
       faraday (~> 0.11.0)
-      rails (>= 4.0)
+      pg
+      rails (~> 5.2.4, >= 5.2.4.2)
       rsolr (~> 2.0.0.pre3)
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: b0cb43857d877a2d9ec2a8b4f0f1cddf49f64260
-  tag: v5.8.5
+  revision: 093bf7aa90fea6a071df50318db8137377855345
+  tag: v5.8.8
   specs:
-    kmaps_engine (5.8.5)
+    kmaps_engine (5.8.8)
       annotate
       bootsnap (>= 1.1.0)
       coffee-rails (~> 4.2)
@@ -42,7 +46,7 @@ GIT
       hpricot
       jbuilder (~> 2.5)
       memcache-client
-      pg (~> 0.18)
+      pg
       puma (~> 3.11)
       rails (~> 5.2.3)
       turbolinks (~> 5)
@@ -58,26 +62,26 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/shanti_integration.git
-  revision: 3c1ec2ef91ac456cc139da508fd52f98416da727
-  tag: v3.4.6
+  revision: 371e4d76ac4e04c086553735013a251670ade182
+  tag: v3.4.7
   specs:
-    shanti_integration (3.4.6)
+    shanti_integration (3.4.7)
       rails (>= 4.0)
 
 GIT
   remote: git://github.com/shanti-uva/subjects_engine.git
-  revision: 2ffd17f96dd6eae0dcc1c8d915bd6b611a69d6cc
-  tag: v1.4.9
+  revision: 3685ce3cb392060ae8534670385d14dc4076ded0
+  tag: v1.5.0
   specs:
-    subjects_engine (1.4.9)
+    subjects_engine (1.5.0)
       rails (>= 4.0)
 
 GIT
   remote: git://github.com/thl/active_resource_extensions.git
-  revision: ba098c7939d19c04bb8e4d5fe14610fe0bc76073
-  tag: v2.2.0
+  revision: a9e53946059c911bb304204ef3db4b46763c2270
+  tag: v2.2.1
   specs:
-    active_resource_extensions (2.2.0)
+    active_resource_extensions (2.2.1)
       activeresource
       hpricot
       rails (>= 4.0)
@@ -92,19 +96,19 @@ GIT
 
 GIT
   remote: git://github.com/thl/authenticated_system.git
-  revision: f3fbe8b4a09423cf94f3aa93cbf1dce40971ffac
-  branch: debug-shibboleth/drc2r
+  revision: 8e9c8e3b9cb7a87a3b94c853ca918eb7fbc3a0a4
+  tag: v2.3.9
   specs:
-    authenticated_system (2.3.8)
+    authenticated_system (2.3.9)
       rails (>= 4.0)
 
 GIT
   remote: git://github.com/thl/complex_dates.git
-  revision: 65c1c55e510cecfbbe65e1ea2a60541426901c00
-  tag: v2.2.8
+  revision: e0065a824afa2c4e9052b193f888dec7e3b65c85
+  tag: v2.2.9
   specs:
-    complex_dates (2.2.8)
-      pg (~> 0.18)
+    complex_dates (2.2.9)
+      pg
       rails (>= 4.0)
 
 GIT
@@ -127,18 +131,18 @@ GIT
 
 GIT
   remote: git://github.com/thl/mms_integration.git
-  revision: 99b91a3f71e684ebb2f178caed374cf0ed93d766
-  tag: v2.3.8
+  revision: f9b064edaea5477dfe8008cb5df1dba7c061c57e
+  tag: v2.4.0
   specs:
-    mms_integration (2.3.8)
+    mms_integration (2.4.0)
       rails (>= 4.0)
 
 GIT
   remote: git://github.com/thl/places_integration.git
-  revision: eec1acc44512bffc86d7d778f6393b4ef2d92650
-  tag: v2.2.1
+  revision: 5c86e987db0f14f98c6b5679459fd4d1cc05da7a
+  tag: v2.2.2
   specs:
-    places_integration (2.2.1)
+    places_integration (2.2.2)
       rails (>= 4.0)
 
 GIT
@@ -160,20 +164,20 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
-    actioncable (5.2.3)
-      actionpack (= 5.2.3)
+    actioncable (5.2.4.3)
+      actionpack (= 5.2.4.3)
       nio4r (~> 2.0)
       websocket-driver (>= 0.6.1)
-    actionmailer (5.2.3)
-      actionpack (= 5.2.3)
-      actionview (= 5.2.3)
-      activejob (= 5.2.3)
+    actionmailer (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      actionview (= 5.2.4.3)
+      activejob (= 5.2.4.3)
       mail (~> 2.5, >= 2.5.4)
       rails-dom-testing (~> 2.0)
-    actionpack (5.2.3)
-      actionview (= 5.2.3)
-      activesupport (= 5.2.3)
-      rack (~> 2.0)
+    actionpack (5.2.4.3)
+      actionview (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
+      rack (~> 2.0, >= 2.0.8)
       rack-test (>= 0.6.3)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
@@ -181,34 +185,34 @@ GEM
       actionpack (>= 4.0.0)
     actionpack-page_caching (1.1.1)
       actionpack (>= 4.0.0, < 6)
-    actionview (5.2.3)
-      activesupport (= 5.2.3)
+    actionview (5.2.4.3)
+      activesupport (= 5.2.4.3)
       builder (~> 3.1)
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
-    activejob (5.2.3)
-      activesupport (= 5.2.3)
+    activejob (5.2.4.3)
+      activesupport (= 5.2.4.3)
       globalid (>= 0.3.6)
-    activemodel (5.2.3)
-      activesupport (= 5.2.3)
+    activemodel (5.2.4.3)
+      activesupport (= 5.2.4.3)
     activemodel-serializers-xml (1.0.2)
       activemodel (> 5.x)
       activesupport (> 5.x)
       builder (~> 3.1)
-    activerecord (5.2.3)
-      activemodel (= 5.2.3)
-      activesupport (= 5.2.3)
+    activerecord (5.2.4.3)
+      activemodel (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
       arel (>= 9.0)
     activeresource (5.1.0)
       activemodel (>= 5.0, < 7)
       activemodel-serializers-xml (~> 1.0)
       activesupport (>= 5.0, < 7)
-    activestorage (5.2.3)
-      actionpack (= 5.2.3)
-      activerecord (= 5.2.3)
+    activestorage (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      activerecord (= 5.2.4.3)
       marcel (~> 0.3.1)
-    activesupport (5.2.3)
+    activesupport (5.2.4.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -249,8 +253,14 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.5)
-    crass (1.0.5)
+    concurrent-ruby (1.1.6)
+    crass (1.0.6)
+    daemons (1.3.1)
+    delayed_job (4.1.8)
+      activesupport (>= 3.0, < 6.1)
+    delayed_job_active_record (4.1.4)
+      activerecord (>= 3.0, < 6.1)
+      delayed_job (>= 3.0, < 5)
     dynamic_form (1.1.4)
     erubi (1.9.0)
     exception_notification (4.4.0)
@@ -263,7 +273,7 @@ GEM
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     hpricot (0.8.6)
-    i18n (1.7.0)
+    i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
     jbuilder (2.10.0)
@@ -278,7 +288,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    loofah (2.4.0)
+    loofah (2.5.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -286,40 +296,40 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     memcache-client (1.8.5)
-    method_source (0.9.2)
-    mimemagic (0.3.3)
+    method_source (1.0.0)
+    mimemagic (0.3.5)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
-    minitest (5.13.0)
+    minitest (5.14.1)
     msgpack (1.3.3)
     multipart-post (2.1.1)
     newrelic_rpm (6.7.0.359)
     nio4r (2.5.2)
-    nokogiri (1.10.7)
+    nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     open_id_authentication (1.3.0)
       rack-openid (~> 1.3)
-    pg (0.21.0)
+    pg (1.2.3)
     public_suffix (4.0.1)
-    puma (3.12.4)
-    rack (2.0.8)
+    puma (3.12.6)
+    rack (2.2.2)
     rack-openid (1.4.2)
       rack (>= 1.1.0)
       ruby-openid (>= 2.1.8)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rails (5.2.3)
-      actioncable (= 5.2.3)
-      actionmailer (= 5.2.3)
-      actionpack (= 5.2.3)
-      actionview (= 5.2.3)
-      activejob (= 5.2.3)
-      activemodel (= 5.2.3)
-      activerecord (= 5.2.3)
-      activestorage (= 5.2.3)
-      activesupport (= 5.2.3)
+    rails (5.2.4.3)
+      actioncable (= 5.2.4.3)
+      actionmailer (= 5.2.4.3)
+      actionpack (= 5.2.4.3)
+      actionview (= 5.2.4.3)
+      activejob (= 5.2.4.3)
+      activemodel (= 5.2.4.3)
+      activerecord (= 5.2.4.3)
+      activestorage (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
       bundler (>= 1.3.0)
-      railties (= 5.2.3)
+      railties (= 5.2.4.3)
       sprockets-rails (>= 2.0.0)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
@@ -328,9 +338,9 @@ GEM
       loofah (~> 2.3)
     rails-observers (0.1.5)
       activemodel (>= 4.0)
-    railties (5.2.3)
-      actionpack (= 5.2.3)
-      activesupport (= 5.2.3)
+    railties (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
       method_source
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
@@ -379,7 +389,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
@@ -388,7 +398,7 @@ GEM
       activemodel (>= 5.0)
       bindex (>= 0.4.0)
       railties (>= 5.0)
-    websocket-driver (0.7.1)
+    websocket-driver (0.7.2)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
     will_paginate (3.2.1)
@@ -401,31 +411,32 @@ PLATFORMS
 DEPENDENCIES
   actionpack-action_caching
   actionpack-page_caching
-  active_resource_extensions (= 2.2.0)!
+  active_resource_extensions (= 2.2.1)!
   activemodel-serializers-xml
   activeresource
   acts_as_family_tree (= 1.1.9)!
-  authenticated_system (= 2.3.8)!
+  authenticated_system (= 2.3.9)!
   bootstrap-sass (= 3.3.7)
   byebug
   capybara (>= 2.15)
   chromedriver-helper
-  complex_dates (= 2.2.8)!
+  complex_dates (= 2.2.9)!
   complex_scripts (= 3.1.0)!
+  delayed_job_active_record
   dynamic_form
   ffi-icu (= 0.2.0)!
-  flare (= 1.2.3)!
+  flare (= 1.2.8)!
   hpricot
   interface_utils (= 2.3.8)!
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 5.8.5)!
+  kmaps_engine (= 5.8.8)!
   listen (>= 3.0.5, < 3.2)
-  mms_integration (= 2.3.8)!
+  mms_integration (= 2.4.0)!
   newrelic_rpm
   open_id_authentication
   passiverecord (= 0.2)!
-  places_integration (= 2.2.1)!
+  places_integration (= 2.2.2)!
   proxy_engine (= 2.1.6)!
   rack-openid
   rails (~> 5.2.3)
@@ -434,11 +445,11 @@ DEPENDENCIES
   restful-authentication (= 2.0.0.beta1)!
   sass-rails (= 5.0.7)
   selenium-webdriver
-  shanti_integration (= 3.4.6)!
+  shanti_integration (= 3.4.7)!
   spawnling
   spring (~> 2.0.2)
   spring-watcher-listen (~> 2.0.0)
-  subjects_engine (= 1.4.9)!
+  subjects_engine (= 1.5.0)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.2)!
