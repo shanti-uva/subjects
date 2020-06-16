@@ -10,7 +10,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'rails', '~> 5.2.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.7'
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '>= 3.4.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 #gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
