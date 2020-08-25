@@ -41,7 +41,6 @@ gem 'ffi-icu',                    '0.2.0',        github: 'shanti-uva/ffi-icu', 
 gem 'kmaps_engine',               '6.0.2',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.0.2' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.4.2',        github: 'thl/mms_integration',             tag: 'v2.4.2' #path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.2.4',        github: 'thl/places_integration',          tag: 'v2.2.4' #path: '../../thl/engines/places_integration'
-gem 'proxy_engine',               '2.1.7',        github: 'thl/proxy_engine',                tag: 'v2.1.7' #path: '../../thl/engines/proxy_engine'
 gem 'resource_controller',        '0.9.2',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.2' #path: '../engines/resource_controller'
 gem 'shanti_integration',         '3.5.1',        github: 'shanti-uva/shanti_integration',   tag: 'v3.5.1' #path: '../engines/shanti_integration'
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'

@@ -139,14 +139,6 @@ GIT
       rails (>= 4.0)
 
 GIT
-  remote: https://github.com/thl/proxy_engine.git
-  revision: 3047668b954da883e203fb254e7f8405c824b686
-  tag: v2.1.7
-  specs:
-    proxy_engine (2.1.7)
-      rails (>= 4.0)
-
-GIT
   remote: https://github.com/thl/universal_navigation.git
   revision: 1190f5d4d08207677deb6ee62c32cece798c4158
   tag: v3.1.3
@@ -433,7 +425,6 @@ DEPENDENCIES
   newrelic_rpm
   open_id_authentication
   places_integration (= 2.2.4)!
-  proxy_engine (= 2.1.7)!
   rack-openid
   rails (~> 5.2.3)
   rails-observers
