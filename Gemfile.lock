@@ -29,10 +29,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: fd5fe050f17e1be1de699ea8e3367687f15aa00b
-  tag: v6.0.7
+  revision: 0d56278e80b0e38515fc01eb5e009e6d61a615cb
+  tag: v6.0.8
   specs:
-    kmaps_engine (6.0.7)
+    kmaps_engine (6.0.8)
       annotate
       bootsnap (>= 1.1.0)
       coffee-rails (~> 4.2)
@@ -64,10 +64,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/subjects_engine.git
-  revision: 1201df4d45b7d52412ca17952b25affb1c2a524d
-  tag: v1.5.4
+  revision: 322e67e7c50f80008ab4501eb55cde42b6c9dab2
+  tag: v1.5.5
   specs:
-    subjects_engine (1.5.4)
+    subjects_engine (1.5.5)
       rails (>= 4.0)
 
 GIT
@@ -419,7 +419,7 @@ DEPENDENCIES
   interface_utils (= 2.3.9)!
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 6.0.7)!
+  kmaps_engine (= 6.0.8)!
   listen (>= 3.0.5, < 3.2)
   mms_integration (= 2.4.3)!
   newrelic_rpm
@@ -436,7 +436,7 @@ DEPENDENCIES
   spawnling
   spring (~> 2.0.2)
   spring-watcher-listen (~> 2.0.0)
-  subjects_engine (= 1.5.4)!
+  subjects_engine (= 1.5.5)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.3)!
