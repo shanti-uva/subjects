@@ -64,10 +64,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/subjects_engine.git
-  revision: 322e67e7c50f80008ab4501eb55cde42b6c9dab2
-  tag: v1.5.5
+  revision: a47b5cb26d71d18975d5a49c6fce947a5fc9b20c
+  tag: v1.5.6
   specs:
-    subjects_engine (1.5.5)
+    subjects_engine (1.5.6)
       rails (>= 4.0)
 
 GIT
@@ -436,7 +436,7 @@ DEPENDENCIES
   spawnling
   spring (~> 2.0.2)
   spring-watcher-listen (~> 2.0.0)
-  subjects_engine (= 1.5.5)!
+  subjects_engine (= 1.5.6)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.3)!
