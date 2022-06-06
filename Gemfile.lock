@@ -15,7 +15,7 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/flare.git
-  revision: eb72c3c1736630c3dd0d57fc4e652e9c2a68861b
+  revision: 31e71c72f3c31efbe21d5f371ca7cf14d07f4063
   tag: v1.3.6
   specs:
     flare (1.3.6)
