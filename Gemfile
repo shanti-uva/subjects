@@ -38,7 +38,7 @@ gem 'complex_scripts',            '3.1.3',        github: 'thl/complex_scripts',
 gem 'interface_utils',            '2.4.0',        github: 'thl/interface_utils',             tag: 'v2.4.0' #path: '../../thl/engines/interface_utils'
 gem 'flare',                      '1.3.8',        github: 'shanti-uva/flare',                tag: 'v1.3.8' #path: '../engines/flare'
 gem 'ffi-icu',                    '0.2.0',        github: 'shanti-uva/ffi-icu',              tag: 'v0.2.0' #path: '../engines/ffi-icu'
-gem 'kmaps_engine',               '6.5.0',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.5.0' #path: '../engines/kmaps_engine'
+gem 'kmaps_engine',               '6.5.1',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.5.1' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.4.4',        github: 'thl/mms_integration',             branch: 'without-local' #tag: 'v2.4.4' #path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.2.4',        github: 'thl/places_integration',          tag: 'v2.2.4' #path: '../../thl/engines/places_integration'
 gem 'resource_controller',        '0.9.2',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.2' #path: '../engines/resource_controller'
