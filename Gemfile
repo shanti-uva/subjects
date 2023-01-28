@@ -18,6 +18,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
 gem 'hpricot'#, '>= 0.8.6'
+gem 'nokogiri', '~> 1.13.10'
 gem 'rack-openid', require: 'rack/openid'
 gem 'will_paginate' #, '~> 3.0'
 gem 'tinymce-rails' #, '3.5.9' compatible with ruby 1.8.7
