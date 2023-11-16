@@ -2,16 +2,15 @@
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
 #
-# Note that this schema.rb definition is the authoritative source for your
-# database schema. If you need to create the application database on another
-# system, you should be using db:schema:load, not running all the migrations
-# from scratch. The latter is a flawed and unsustainable approach (the more migrations
-# you'll amass, the slower it'll run and the greater likelihood for issues).
+# This file is the source Rails uses to define your schema when running `bin/rails
+# db:schema:load`. When creating a new database, `bin/rails db:schema:load` tends to
+# be faster and is potentially less error prone than running all of your
+# migrations from scratch. Old migrations may fail to apply correctly if those
+# migrations use external dependencies or application code.
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_15_181134) do
-
+ActiveRecord::Schema[7.1].define(version: 2023_11_14_191856) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -20,8 +19,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.integer "feature_id", null: false
     t.integer "perspective_id"
     t.boolean "descendants", default: true, null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["collection_id", "feature_id", "perspective_id"], name: "affiliations_on_dependencies", unique: true
   end
 
@@ -39,16 +38,16 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.string "code", limit: 255
     t.string "title", limit: 255
     t.text "content"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
   end
 
   create_table "cached_feature_names", id: :serial, force: :cascade do |t|
     t.integer "feature_id", null: false
     t.integer "view_id", null: false
     t.integer "feature_name_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["feature_id", "view_id"], name: "index_cached_feature_names_on_feature_id_and_view_id", unique: true
   end
 
@@ -57,8 +56,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.text "content", null: false
     t.integer "author_id", null: false
     t.integer "feature_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
   end
 
   create_table "citations", id: :serial, force: :cascade do |t|
@@ -66,8 +65,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.string "citable_type", null: false
     t.integer "citable_id", null: false
     t.text "notes"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.string "info_source_type", limit: 255, null: false
     t.index ["citable_id", "citable_type"], name: "citations_1_idx"
     t.index ["info_source_id"], name: "citations_info_source_id_idx"
@@ -108,8 +107,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.integer "intercalary_day_id"
     t.integer "rabjung_id"
     t.integer "rabjung_certainty_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.integer "year_end"
     t.integer "season_end_id"
     t.integer "month_end"
@@ -128,13 +127,13 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.integer "attempts", default: 0, null: false
     t.text "handler", null: false
     t.text "last_error"
-    t.datetime "run_at"
-    t.datetime "locked_at"
-    t.datetime "failed_at"
+    t.datetime "run_at", precision: nil
+    t.datetime "locked_at", precision: nil
+    t.datetime "failed_at", precision: nil
     t.string "locked_by"
     t.string "queue"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.integer "reference_id"
     t.string "reference_type"
     t.index ["priority", "run_at"], name: "delayed_jobs_priority"
@@ -144,8 +143,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.integer "feature_id", null: false
     t.text "content", null: false
     t.boolean "is_primary", default: false, null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.string "title", limit: 255
     t.string "source_url", limit: 255
     t.integer "language_id", null: false
@@ -155,16 +154,16 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.bigint "feature_id", null: false
     t.integer "text_id", null: false
     t.integer "language_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
     t.index ["feature_id"], name: "index_essays_on_feature_id"
   end
 
   create_table "external_pictures", id: :serial, force: :cascade do |t|
     t.string "url", limit: 255, null: false
     t.text "caption"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
     t.integer "place_id"
   end
 
@@ -174,8 +173,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.integer "timespan_id"
     t.string "geo_code_value", null: false
     t.text "notes"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
   end
 
   create_table "feature_name_relations", id: :serial, force: :cascade do |t|
@@ -189,8 +188,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.integer "phonetic_system_id"
     t.integer "orthographic_system_id"
     t.integer "alt_spelling_system_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["child_node_id"], name: "feature_name_relations_child_node_id_idx"
     t.index ["parent_node_id"], name: "feature_name_relations_parent_node_id_idx"
   end
@@ -204,8 +203,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.text "etymology"
     t.integer "writing_system_id"
     t.integer "language_id", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.boolean "is_primary_for_romanization", default: false
     t.index ["ancestor_ids"], name: "feature_names_ancestor_ids_idx"
     t.index ["feature_id"], name: "feature_names_feature_id_idx"
@@ -216,8 +215,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.boolean "is_symmetric"
     t.string "label", limit: 255, null: false
     t.string "asymmetric_label", limit: 255
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.string "code", limit: 255, null: false
     t.boolean "is_hierarchical", default: false, null: false
     t.string "asymmetric_code", limit: 255
@@ -230,8 +229,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.text "notes"
     t.string "role", limit: 20
     t.integer "perspective_id", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.integer "feature_relation_type_id", null: false
     t.index ["ancestor_ids"], name: "feature_relations_ancestor_ids_idx"
     t.index ["child_node_id"], name: "feature_relations_child_node_id_idx"
@@ -244,8 +243,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.integer "is_public", limit: 2
     t.integer "position", default: 0
     t.string "ancestor_ids", limit: 255
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.string "old_pid", limit: 255
     t.boolean "is_blank", default: false, null: false
     t.integer "fid", null: false
@@ -260,36 +259,36 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.integer "picture_id", null: false
     t.string "picture_type", limit: 255, null: false
     t.boolean "is_primary", default: true, null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
   end
 
   create_table "importation_tasks", id: :serial, force: :cascade do |t|
     t.string "task_code", limit: 255, null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
   end
 
   create_table "imported_spreadsheets", id: :serial, force: :cascade do |t|
     t.string "filename", limit: 255, null: false
     t.integer "task_id", null: false
-    t.datetime "imported_at", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "imported_at", precision: nil, null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
   end
 
   create_table "imports", id: :serial, force: :cascade do |t|
     t.integer "spreadsheet_id", null: false
     t.integer "item_id", null: false
     t.string "item_type", limit: 255, null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
   end
 
   create_table "note_titles", id: :serial, force: :cascade do |t|
     t.string "title", limit: 255
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
   end
 
   create_table "notes", id: :serial, force: :cascade do |t|
@@ -298,8 +297,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.integer "note_title_id"
     t.string "custom_note_title", limit: 255
     t.text "content", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.string "association_type", limit: 255
     t.boolean "is_public", default: true
   end
@@ -311,8 +310,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.string "start_line"
     t.integer "end_page"
     t.integer "end_line"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.integer "chapter"
     t.string "tibetan_start_page"
     t.integer "start_verse"
@@ -341,8 +340,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.text "description"
     t.text "notes"
     t.boolean "is_public", default: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["code"], name: "index_perspectives_on_code"
   end
 
@@ -364,8 +363,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.text "description"
     t.text "notes"
     t.string "type", limit: 255
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["code"], name: "simple_props_code_idx"
     t.index ["type"], name: "simple_props_type_idx"
   end
@@ -375,8 +374,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.text "content", null: false
     t.integer "author_id", null: false
     t.integer "feature_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
   end
 
   create_table "time_units", id: :serial, force: :cascade do |t|
@@ -387,8 +386,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.boolean "is_range"
     t.integer "dateable_id"
     t.string "dateable_type", limit: 255
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.integer "frequency_id"
   end
 
@@ -400,8 +399,8 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.integer "is_current", limit: 2
     t.integer "dateable_id", null: false
     t.string "dateable_type", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["dateable_id", "dateable_type"], name: "timespans_1_idx"
     t.index ["end_date"], name: "timespans_end_date_idx"
     t.index ["start_date"], name: "timespans_start_date_idx"
@@ -414,9 +413,9 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.string "crypted_password", limit: 40
     t.string "salt", limit: 40
     t.string "remember_token", limit: 255
-    t.datetime "remember_token_expires_at"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "remember_token_expires_at", precision: nil
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.string "identity_url", limit: 255
     t.string "shibboleth_id", limit: 255
   end
@@ -425,15 +424,15 @@ ActiveRecord::Schema.define(version: 2022_12_15_181134) do
     t.string "path", limit: 255, null: false
     t.string "title", limit: 255, null: false
     t.integer "citation_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
   end
 
   create_table "xml_documents", id: :serial, force: :cascade do |t|
     t.integer "feature_id", null: false
     t.text "document", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", precision: nil
+    t.datetime "updated_at", precision: nil
     t.index ["feature_id"], name: "xml_documents_feature_id_idx"
   end
 
