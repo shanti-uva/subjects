@@ -43,10 +43,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: 9a96763ab6e6dbd4647f788b5cafbde32306ea29
-  tag: v6.5.8
+  revision: 34d9833880b1357841443e45acd8fd01ee56072a
+  tag: v6.5.9
   specs:
-    kmaps_engine (6.5.8)
+    kmaps_engine (6.5.9)
       annotate
       bootsnap
       exception_notification
@@ -75,10 +75,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/subjects_engine.git
-  revision: d65cbe900535e5c50e56f753e3455cc0a1b6e6f7
-  tag: v1.6.3
+  revision: 80d42b8b32c162035596576b854f07a7f4d36b06
+  tag: v1.6.4
   specs:
-    subjects_engine (1.6.3)
+    subjects_engine (1.6.4)
       rails
 
 GIT
@@ -127,10 +127,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/complex_scripts.git
-  revision: fc79bce3b587f689131bdaeeae8247472ee94edc
-  tag: v3.1.6
+  revision: 460d24f47ccc588c3afeeacf04af15e6731e5cc3
+  tag: v3.1.7
   specs:
-    complex_scripts (3.1.6)
+    complex_scripts (3.1.7)
       hpricot
       rails (>= 4.0)
 
@@ -492,7 +492,7 @@ DEPENDENCIES
   bootstrap-sass
   capybara
   complex_dates (= 2.4.0)!
-  complex_scripts (= 3.1.6)!
+  complex_scripts (= 3.1.7)!
   debug
   delayed_job_active_record
   dynamic_form
@@ -502,7 +502,7 @@ DEPENDENCIES
   interface_utils (= 2.4.2)!
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 6.5.8)!
+  kmaps_engine (= 6.5.9)!
   mms_integration (= 2.4.6)!
   newrelic_rpm
   places_integration (= 2.2.7)!
@@ -515,7 +515,7 @@ DEPENDENCIES
   selenium-webdriver
   shanti_integration (= 3.6.1)!
   spawnling
-  subjects_engine (= 1.6.3)!
+  subjects_engine (= 1.6.4)!
   subjects_integration (= 0.3.3)!
   tinymce-rails
   tzinfo-data
