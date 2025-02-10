@@ -63,7 +63,7 @@ gem 'kmaps_engine',               '6.8.7',        github: 'shanti-uva/kmaps_engi
 gem 'mms_integration',            '2.4.6',        github: 'thl/mms_integration',             tag: 'v2.4.6' #path: '../../thl/engines/mms_integration', branch: 'without-local'
 gem 'places_integration',         '2.2.7',        github: 'thl/places_integration',          tag: 'v2.2.7' #path: '../../thl/engines/places_integration'
 gem 'resource_controller',        '0.9.5',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.5' #path: '../engines/resource_controller'
-gem 'shanti_integration',         '3.6.5',        github: 'shanti-uva/shanti_integration',   tag: 'v3.6.5' #path: '../engines/shanti_integration'
+gem 'shanti_integration',         '3.6.6',        github: 'shanti-uva/shanti_integration',   tag: 'v3.6.6' #path: '../engines/shanti_integration'
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
 gem 'subjects_engine',            '1.6.6',        github: 'shanti-uva/subjects_engine',      tag: 'v1.6.6' #path: '../engines/subjects_engine'
