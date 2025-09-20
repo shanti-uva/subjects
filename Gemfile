@@ -48,6 +48,7 @@ gem 'spawnling'
 gem 'dynamic_form'
 gem 'activeresource', require: 'active_resource'
 gem 'delayed_job_active_record'
+gem 'pg', '1.5.9'
 
 gem 'jquery-ui-rails',            '7.0.0',        github: 'jquery-ui-rails/jquery-ui-rails',  tag: 'v7.0.0'
 gem 'restful-authentication',     '2.0.0.beta1',  github: 'raszi/restful-authentication', branch: 'rails4'
