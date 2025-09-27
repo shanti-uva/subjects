@@ -38,6 +38,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+gem 'annotate'
 gem 'hpricot', github: 'ycorredius/hpricot'#, '>= 0.8.6'
 #gem 'nokogiri', '~> 1.13.10'
 gem 'rack-openid', require: 'rack/openid'
@@ -55,13 +56,13 @@ gem 'restful-authentication',     '2.0.0.beta1',  github: 'raszi/restful-authent
 
 gem 'active_resource_extensions', '2.2.9',        github: 'thl/active_resource_extensions',  tag: 'v2.2.9' #path: '../../thl/engines/active_resource_extensions'
 gem 'acts_as_family_tree',        '1.3.2',        github: 'thl/acts_as_family_tree',         tag: 'v1.3.2' #path: '../../thl/engines/acts_as_family_tree'
-gem 'authenticated_system',       '2.4.9',        github: 'thl/authenticated_system',        tag: 'v2.4.9' #path: '../../thl/engines/authenticated_system'
+gem 'authenticated_system',       '2.5.0',        github: 'thl/authenticated_system',        tag: 'v2.5.0' #path: '../../thl/engines/authenticated_system'
 gem 'complex_dates',              '2.4.4',        github: 'thl/complex_dates',               tag: 'v2.4.4' #path: '../../thl/engines/complex_dates'
-gem 'complex_scripts',            '3.2.5',        github: 'thl/complex_scripts',             tag: 'v3.2.5' #path: '../../thl/engines/complex_scripts'
+gem 'complex_scripts',            '3.2.6',        github: 'thl/complex_scripts',             tag: 'v3.2.6' #path: '../../thl/engines/complex_scripts'
 gem 'interface_utils',            '2.4.7',        github: 'thl/interface_utils',             tag: 'v2.4.7' #path: '../../thl/engines/interface_utils'
 gem 'flare',                      '1.4.9',        github: 'shanti-uva/flare',                tag: 'v1.4.9' #path: '../engines/flare'
 gem 'ffi-icu',                    '0.5.4',        github: 'shanti-uva/ffi-icu',              tag: 'v0.5.4' #path: '../engines/ffi-icu'
-gem 'kmaps_engine',               '6.9.5',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.9.5' #path: '../engines/kmaps_engine'
+gem 'kmaps_engine',               '6.9.6',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.9.6' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.4.8',        github: 'thl/mms_integration',             tag: 'v2.4.8' #branch: 'without-local', path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.3.0',        github: 'thl/places_integration',          tag: 'v2.3.0' #path: '../../thl/engines/places_integration'
 gem 'resource_controller',        '0.9.6',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.6' #path: '../engines/resource_controller'
