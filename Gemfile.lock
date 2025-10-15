@@ -86,10 +86,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/subjects_engine.git
-  revision: df2750ea2c642a2c9269aafae927484bb0c16aff
-  tag: v1.7.1
+  revision: acc65d0260fdfcb53c59453271c527af33f663e3
+  tag: v1.7.2
   specs:
-    subjects_engine (1.7.1)
+    subjects_engine (1.7.2)
       rails
 
 GIT
@@ -552,7 +552,7 @@ DEPENDENCIES
   shakapacker (~> 6.5)
   shanti_integration (= 3.6.9)!
   spawnling
-  subjects_engine (= 1.7.1)!
+  subjects_engine (= 1.7.2)!
   subjects_integration (= 0.3.6)!
   tinymce-rails
   tzinfo-data

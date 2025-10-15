@@ -69,7 +69,7 @@ gem 'resource_controller',        '0.9.6',        github: 'shanti-uva/resource_c
 gem 'shanti_integration',         '3.6.9',        github: 'shanti-uva/shanti_integration',   tag: 'v3.6.9' #path: '../engines/shanti_integration'
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
-gem 'subjects_engine',            '1.7.1',        github: 'shanti-uva/subjects_engine',      tag: 'v1.7.1' #path: '../engines/subjects_engine'
+gem 'subjects_engine',            '1.7.2',        github: 'shanti-uva/subjects_engine',      tag: 'v1.7.2' #path: '../engines/subjects_engine'
 gem 'subjects_integration',       '0.3.6',        github: 'shanti-uva/subjects_integration', tag: 'v0.3.6' #path: '../engines/subjects_integration'
 gem 'universal_navigation',       '3.1.7',        github: 'thl/universal_navigation',        tag: 'v3.1.7' #path: '../../thl/engines/universal_navigation'
 
