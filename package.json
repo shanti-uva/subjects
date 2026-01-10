@@ -24,7 +24,8 @@
     "webpack-assets-manifest": "^5.0.6 || ^6.0.0",
     "webpack-cli": "^4.9.2 || ^5.0.0 || ^6.0.0",
     "webpack-merge": "^5.8.0 || ^6.0.0",
-    "webpack-subresource-integrity": "^5.1.0"
+    "webpack-subresource-integrity": "^5.1.0",
+    "webpack-dev-server": ">=5.2.2"
   },
   "babel": {
     "presets": [
@@ -36,6 +37,6 @@
     "defaults"
   ],
   "devDependencies": {
-    "webpack-dev-server": "^4.15.2 || ^5.2.2"
+    "webpack-dev-server": ">=5.2.2"
   }
 }
