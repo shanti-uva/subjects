@@ -139,10 +139,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/complex_scripts.git
-  revision: f9b03d2f43c2dcf4e60ec88b15ef5a96c1d8d508
-  tag: v3.2.7
+  revision: f9ff6b49485456bd0bb43b9d409d62cbbd66b5f6
+  tag: v3.2.8
   specs:
-    complex_scripts (3.2.7)
+    complex_scripts (3.2.8)
       hpricot
       rails
 
@@ -383,6 +383,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.10-x86_64-linux-musl)
       racc (~> 1.4)
+    package_json (0.2.0)
     pg (1.5.9)
     pp (0.6.3)
       prettyprint
@@ -467,8 +468,9 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     semantic_range (3.1.0)
-    shakapacker (6.6.0)
+    shakapacker (9.5.0)
       activesupport (>= 5.2)
+      package_json
       rack-proxy (>= 0.6.1)
       railties (>= 5.2)
       semantic_range (>= 2.3.0)
@@ -528,7 +530,7 @@ DEPENDENCIES
   bootstrap-sass
   capybara
   complex_dates (= 2.4.5)!
-  complex_scripts (= 3.2.7)!
+  complex_scripts (= 3.2.8)!
   debug
   delayed_job_active_record
   dynamic_form
@@ -550,7 +552,7 @@ DEPENDENCIES
   restful-authentication (= 2.0.0.beta1)!
   sass-rails
   selenium-webdriver
-  shakapacker (~> 6.5)
+  shakapacker (>= 9.5.0)
   shanti_integration (= 3.6.9)!
   spawnling
   subjects_engine (= 1.7.4)!
