@@ -52,6 +52,12 @@ GIT
       rsolr (~> 2.0.0.pre3)
 
 GIT
+  remote: https://github.com/shanti-uva/hpricot.git
+  revision: e305a2661501c8668e6d632e02e0fab2eef6e456
+  specs:
+    hpricot (0.8.7)
+
+GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
   revision: 02e141a6bbf8c1efa710a1415486a6ad4bafd847
   tag: v7.0.3
@@ -177,12 +183,6 @@ GIT
   specs:
     universal_navigation (3.1.7)
       rails
-
-GIT
-  remote: https://github.com/ycorredius/hpricot.git
-  revision: 1eb086570a56514348a35402df0199d7652fd169
-  specs:
-    hpricot (0.8.7)
 
 GEM
   remote: https://rubygems.org/
