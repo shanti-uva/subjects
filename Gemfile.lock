@@ -100,10 +100,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/subjects_integration.git
-  revision: fccb08b1938730b1970c84c0920a562b67ec4c22
-  tag: v0.3.6
+  revision: 5af9c837829db44adf19ab7ec48b939652136b28
+  tag: v0.3.7
   specs:
-    subjects_integration (0.3.6)
+    subjects_integration (0.3.7)
       pg
       rails
 
@@ -566,7 +566,7 @@ DEPENDENCIES
   shanti_integration (= 3.6.9)!
   spawnling
   subjects_engine (= 1.7.4)!
-  subjects_integration (= 0.3.6)!
+  subjects_integration (= 0.3.7)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.7)!
