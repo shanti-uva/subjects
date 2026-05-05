@@ -31,7 +31,7 @@ threads threads_count, threads_count
 environment ENV.fetch("RAILS_ENV", "production")
 
 if ENV["RAILS_ENV"] == "production"
-  bind "unix:///var/apps/subjects/shared/sockets/puma.sock"
+  bind "unix:///var/apps/subjects/shared/tmp/sockets/puma.sock"
   pidfile "/var/apps/subjects/shared/tmp/pids/puma.pid"
 else
   # Specifies the `port` that Puma will listen on to receive requests; default is 3000.
