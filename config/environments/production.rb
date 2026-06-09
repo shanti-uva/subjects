@@ -52,44 +52,54 @@ Rails.application.configure do
 
   # Replace the default in-process and non-durable queuing backend for Active Job.
   config.active_job.queue_adapter = :delayed_job #:resque
-
-  # Ignore bad email addresses and do not raise email delivery errors.
-  # Set this to true and configure the email server for immediate delivery to raise delivery errors.
-  # config.action_mailer.raise_delivery_errors = false
-  config.action_mailer.delivery_method = :smtp #:file
-  config.action_mailer.smtp_settings = {
-    address:         "smtp.gmail.com",
-    port:            587,
-    domain:          "contemplative.eco",
-    user_name:       Rails.application.credentials.dig(:smtp, :user_name),
-    password:        Rails.application.credentials.dig(:smtp, :password),
-    authentication:  "plain",
-    enable_starttls: true,
-    open_timeout:    5,
-    read_timeout:    5
-  }
-  
-  # Set host to be used by links generated in mailer templates.
-  config.action_mailer.default_url_options = { host: "example.com" }
   
   config.after_initialize do
     uri = URI.parse(SubjectsIntegration::SubjectsResource.get_url)
     url_options = { host: uri.host, protocol: uri.scheme }
     path = uri.path.to_s.chomp("/")
     url_options[:script_name] = path if !path.blank?
-    config.action_mailer.default_url_options = url_options
     Rails.application.routes.default_url_options = url_options
+    
+    # Set host to be used by links generated in mailer templates.
+    config.action_mailer.default_url_options = url_options
+    ActionMailer::Base.default_url_options = url_options
+    
+    # Ignore bad email addresses and do not raise email delivery errors.
+    # Set this to true and configure the email server for immediate delivery to raise delivery errors.
+    # config.action_mailer.raise_delivery_errors = false
+    config.action_mailer.delivery_method = :smtp #:file
+    if [InterfaceUtils::Server::NOD_DEV, InterfaceUtils::Server::NOD_PRD].include?(InterfaceUtils::Server.environment)
+      smtp_settings = {
+        address: 'smtp.utm.utoronto.ca',
+        port: 25,
+        domain: 'utm.utoronto.ca',
+        enable_starttls_auto: false,
+        open_timeout: 10,
+        read_timeout: 10
+      }
+      default_options = { from: 'no-reply@utm.utoronto.ca' }
+    else
+      # existing Gmail SMTP config
+      smtp_settings = {
+        address:         'smtp.gmail.com',
+        port:            587,
+        domain:          'contemplative.eco',
+        user_name:       Rails.application.credentials.dig(:smtp, :user_name),
+        password:        Rails.application.credentials.dig(:smtp, :password),
+        authentication:  'plain',
+        enable_starttls: true,
+        open_timeout:    5,
+        read_timeout:    5
+      }
+      default_options = { from: Rails.application.credentials.dig(:smtp, :user_name) }
+    end
+    config.action_mailer.smtp_settings = smtp_settings
+    ActionMailer::Base.smtp_settings = smtp_settings
+    
+    config.action_mailer.default_options = default_options
+    ActionMailer::Base.default default_options
   end
-
-  # Specify outgoing SMTP server. Remember to add smtp/* credentials via bin/rails credentials:edit.
-  # config.action_mailer.smtp_settings = {
-  #   user_name: Rails.application.credentials.dig(:smtp, :user_name),
-  #   password: Rails.application.credentials.dig(:smtp, :password),
-  #   address: "smtp.example.com",
-  #   port: 587,
-  #   authentication: :plain
-  # }
-
+  
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
   config.i18n.fallbacks = true
